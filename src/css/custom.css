@@ -637,58 +637,30 @@ h1, h2, h3, h4, h5, h6 {
   /* Instancia headers in comparativa pages */
 }
 
-/* ---- COLLAPSE ALL BUTTON ---- */
-#flock-collapse-all-btn {
-  /* Sticky: siempre visible arriba aunque el sidebar scrollee */
-  position: sticky;
-  top: 0;
-  z-index: 10;
-
-  display: flex;
+/* ---- COLLAPSE ALL BUTTON (navbar) ---- */
+.flock-collapse-btn {
+  display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  width: 100%;
-  padding: 0.42rem 0.75rem;
-  margin-bottom: 0.75rem;
-
-  /* background sólido para cubrir items que scrollean por debajo */
-  background: var(--flock-surface);
+  padding: 0.3rem 0.75rem;
+  background: transparent;
   border: 1px solid var(--flock-border);
   border-radius: var(--ifm-global-radius);
-
-  color: var(--flock-text-muted);
+  color: var(--ifm-navbar-link-color);
   font-family: 'Syne', sans-serif;
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   font-weight: 700;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   cursor: pointer;
-  transition: color 0.15s, border-color 0.15s, background 0.15s;
-
-  /* pequeña sombra para separarlo visualmente del contenido que pasa */
-  box-shadow: 0 4px 8px -2px var(--flock-surface);
+  white-space: nowrap;
+  transition: color 0.15s, border-color 0.15s;
+  line-height: 1;
 }
 
-#flock-collapse-all-btn:hover {
-  color: var(--flock-text);
-  border-color: var(--flock-text-muted);
-  background: var(--flock-surface-raised);
-  box-shadow: 0 4px 8px -2px var(--flock-surface-raised);
-}
-
-#flock-collapse-all-btn:active {
+.flock-collapse-btn:hover {
   color: var(--flock-amber);
   border-color: var(--flock-amber);
-}
-
-[data-theme='light'] #flock-collapse-all-btn {
-  background: var(--flock-surface);
-  box-shadow: 0 4px 8px -2px var(--flock-surface);
-}
-
-[data-theme='light'] #flock-collapse-all-btn:hover {
-  background: var(--flock-surface-raised);
-  box-shadow: 0 4px 8px -2px var(--flock-surface-raised);
 }
 
 /* ---- SCROLLBAR ---- */

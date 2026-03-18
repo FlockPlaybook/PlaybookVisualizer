@@ -1,34 +1,19 @@
-const BTN_ID = 'flock-collapse-all-btn';
+// Attach collapse function globally so the navbar button can call it
+window.__flockCollapseAll = function () {
+  const items = document.querySelectorAll(
+    '.menu__list-item:not(.menu__list-item--collapsed)'
+  );
 
-function injectCollapseButton() {
-  if (document.getElementById(BTN_ID)) return;
+  items.forEach(item => {
+    // Try caret button first (exists when category has a link)
+    const caret = item.querySelector('.menu__caret');
+    if (caret) { caret.click(); return; }
 
-  const nav = document.querySelector('nav.menu');
-  if (!nav) return;
-
-  const btn = document.createElement('button');
-  btn.id = BTN_ID;
-  btn.innerHTML = `
-    <svg width="11" height="11" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0">
-      <rect x="1" y="1" width="4" height="4" rx="0.5" stroke="currentColor" stroke-width="1.3"/>
-      <rect x="7" y="1" width="4" height="4" rx="0.5" stroke="currentColor" stroke-width="1.3"/>
-      <rect x="1" y="7" width="4" height="4" rx="0.5" stroke="currentColor" stroke-width="1.3"/>
-      <rect x="7" y="7" width="4" height="4" rx="0.5" stroke="currentColor" stroke-width="1.3"/>
-    </svg>
-    Colapsar todo
-  `;
-
-  btn.addEventListener('click', () => {
-    // Target the caret toggle button inside every NON-collapsed category
-    const carets = document.querySelectorAll(
-      '.menu__list-item:not(.menu__list-item--collapsed) .menu__caret'
-    );
-    carets.forEach(caret => caret.click());
+    // Fallback: click the sublist label itself (toggles when no link)
+    const label = item.querySelector('.menu__link--sublist');
+    if (label) { label.click(); }
   });
+};
 
-  nav.insertBefore(btn, nav.firstChild);
-}
-
-export function onRouteDidUpdate() {
-  setTimeout(injectCollapseButton, 80);
-}
+// No-op export to satisfy Docusaurus module format
+export function onRouteDidUpdate() {}
