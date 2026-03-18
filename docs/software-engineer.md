@@ -1,3 +1,10 @@
+---
+id: software-engineer
+title: Software Engineer
+sidebar_label: Software Engineer
+slug: /
+---
+
 # Playbook Software Engineer
 
 ---
