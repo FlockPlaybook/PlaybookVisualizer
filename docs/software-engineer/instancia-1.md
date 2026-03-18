@@ -3,6 +3,7 @@ id: se-instancia-1
 title: Instancia 1
 sidebar_label: Instancia 1
 sidebar_position: 1
+slug: /
 ---
 
 # SE - Instancia 1
