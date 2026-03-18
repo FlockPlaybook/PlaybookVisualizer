@@ -1,0 +1,23 @@
+---
+id: se-instancia-6-calidad
+title: Calidad de los entregables
+sidebar_label: Calidad de los entregables
+sidebar_position: 3
+---
+
+# Calidad de los entregables
+
+Mantiene la calidad de sus entregables, realiza las pruebas necesarias para detectar posibles errores y se asegura de que el equipo trabaje bajo los mismos estándares. Garantiza una correcta cobertura del código del equipo directo, según el contexto del proyecto. Realiza desarrollos mantenibles orientándose y velando por los atributos de calidad y se asegura que las funcionalidades desarrolladas por el equipo respeten los mismos. Hace CR de forma interna y externa buscando dar una devolución sobre posibles mejoras en atributos de calidad o eventuales fallas o errores en el código. Está al tanto del estado técnico del proyecto y sus métricas. Propone y ejecuta iniciativas para la mejora continua.
+
+**Ejemplos:**
+- Se asegura que su equipo tenga correctamente configuradas las herramientas de checkeo de calidad y testing (Linter, extensiones de bugs, hooks para testing, etc.).
+- Se asegura que el proyecto tenga configurado un CI que valide calidad, compilación y testing.
+- Está al tanto de las métricas de Jira, propone acciones para su mejora continua y guía al equipo en la forma de actuar considerando el estado de las mismas.
+- Si las métricas técnicas están implementadas en su proyecto conoce su estado y lleva adelante mejoras en base a estas. De no estar implementadas, conoce el motivo e impulsa su implementación.
+- Front: Garantiza un mínimo de 90 puntos en las métricas de Web Vitals.
+- Define y capacita los code reviewers del proyecto.
+- Vela por métricas de code review acordes a los estándares y toma acciones para asegurar su cumplimiento.
+- Front:
+  - Definición de reglas para el uso de formateadores de código.
+  - Definición de estándares de test unitarios y cómo aplicarlos de manera masiva.
+  - Definición de estándares de rendimiento en navegador y capacidad de negociación ante definiciones de servicios.

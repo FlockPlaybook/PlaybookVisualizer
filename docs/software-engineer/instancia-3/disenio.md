@@ -1,0 +1,26 @@
+---
+id: se-instancia-3-disenio
+title: Diseño e implementación de soluciones
+sidebar_label: Diseño e implementación
+sidebar_position: 2
+---
+
+# Diseño e implementación de soluciones
+
+Realiza un análisis de requerimientos de baja/media complejidad enfocado principalmente en la implementación. Requiere guía y seguimiento para diseñar e implementar una funcionalidad completa de mayor complejidad. Comienza a entender el negocio del cliente, ocasionalmente participa con opiniones y propuestas en el diseño de la implementación. Comprende a alto nivel las funcionalidades del equipo dentro de su tecnología, aportando su visión y comunicando los errores que pueda identificar.
+
+> **Uso de herramientas de IA:** Está familiarizado con herramientas de asistencia basadas en IA para apoyar su aprendizaje, comprensión del código y resolución de problemas simples, respetando las políticas del proyecto.
+
+**Ejemplos:**
+- Implementa efectivamente soluciones de complejidad media, como por ejemplo:
+  - Componentes estáticos o sin lógica
+  - Bug Fixing urgente y trivial en producción
+  - Front/Mobile: Login/Registro completo, paginación, altas/bajas/modificaciones, animaciones, landings, implementación básica de mapas, analytics, trackeo de errores
+  - Back: Integraciones simples con servicios externos, mailers, flujos de login custom
+  - Back: Comienza a realizar ABM complejos (ej: AMB de Presupuestos, Facturas o Clientes)
+- Cuestiona y debate las soluciones planteadas por sus referentes para entenderlas.
+- Resuelve desarrollos más comunes con autonomía.
+- Para funcionalidades que requieran investigación previa o de mayor complejidad, propone implementaciones que luego valida con algún referente.
+- Usa patrones de diseño y manejo de estado de la tecnología con autonomía, haciendo consultas ocasionales al referente.
+- Es consciente de las tareas del resto del equipo de su tecnología, haciendo consultas y brindando su opinión.
+- Contempla correctamente la mayoría de los fail states en el flujo de la aplicación.

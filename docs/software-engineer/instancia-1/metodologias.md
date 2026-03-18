@@ -1,0 +1,22 @@
+---
+id: se-instancia-1-metodologias
+title: Metodologías y mejora continua
+sidebar_label: Metodologías y mejora continua
+sidebar_position: 4
+---
+
+# Metodologías y mejora continua
+
+Es responsable de aprender cuáles son las dinámicas y metodologías de trabajo en un equipo de desarrollo. Tiene la responsabilidad de mantener actualizados a los clientes con los que interactúa sobre sus tareas en los espacios de sync de proyecto. Recibe, interpreta y aplica el feedback de pares y referentes para seguir mejorando en sus capacidades técnicas y de comunicación.
+
+**Ejemplos:**
+- Asistir a las reuniones diarias y proporcionar actualizaciones sobre el progreso de las tareas asignadas.
+- Participar en reuniones de planificación de sprint, retroalimentación y revisión de sprint en un entorno ágil.
+- Recibir feedback constructivo de pares y mentores sobre el trabajo realizado.
+- Aprender y aplicar principios y prácticas ágiles, como Scrum o Kanban, en el trabajo diario.
+- Compartir conocimientos adquiridos con el equipo a través de sesiones de intercambio de conocimientos o documentación en wikis internas.
+- Participar en reuniones de retrospectiva para discutir qué funcionó bien y qué puede mejorarse en el proceso de desarrollo.
+- Dedicar tiempo a aprender nuevas tecnologías y técnicas que pueden mejorar la eficiencia y calidad del trabajo.
+- Colaborar activamente con otros miembros del equipo para resolver problemas y completar tareas.
+- Aprender a gestionar el tiempo de manera efectiva para cumplir con los plazos y prioridades del proyecto.
+- Participar en sesiones de formación y desarrollo profesional ofrecidas por la empresa.

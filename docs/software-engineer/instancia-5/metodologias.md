@@ -1,0 +1,21 @@
+---
+id: se-instancia-5-metodologias
+title: Metodología y mejora continua
+sidebar_label: Metodología y mejora continua
+sidebar_position: 4
+---
+
+# Metodología y mejora continua
+
+Participa activamente y lidera de ser necesario las ceremonias de la metodología del proyecto, comunicándose proactivamente. Se asegura que los procesos de desarrollo se cumplan acorde a lo estipulado dentro de su proyecto y busca la mejora de los mismos justificando sus intenciones.
+
+**Ejemplos:**
+- Da soporte a otros devs para la correcta definición de las stories (criterios de aceptación, casos de prueba, etc.).
+- Participa activamente en las ceremonias de SCRUM:
+  - En la planning participa en la estimación y capacita a los devs con menos experiencia en esto.
+  - En los refinamientos lidera aportando a la definición de las tareas planteando su visión y diseño, pero también dando lugar a los demás devs, generando un espacio de debate abierto.
+- Reconoce mejoras y notifica problemas sobre el estado de Jira, cuellos de botella o problemas.
+- Interactúa con miembros de otras áreas para coordinar las implementaciones que realiza con el objetivo de que todo el módulo o feature se haga correctamente.
+- Busca la mejora continua de las ceremonias de la metodología expresando su opinión, justificando, levantando issues y tomando acciones concretas para lograr esto.
+- Enseña y valida el correcto testeo de los desarrollos tanto por pruebas unitarias como por testeo manual o de integración según el caso.
+- Da feedback proactivamente sobre el estado técnico del proyecto y toma acciones para su mejora continua.

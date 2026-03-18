@@ -1,0 +1,19 @@
+---
+id: se-instancia-2-calidad
+title: Calidad de los entregables
+sidebar_label: Calidad de los entregables
+sidebar_position: 3
+---
+
+# Calidad de los entregables
+
+Mantiene la calidad de sus entregables respetando los procesos del ciclo de desarrollo del proyecto. Realiza los cambios que se le requieren en las instancias de Code Review y hace las pruebas mínimas (casos comunes) necesarias para detectar posibles errores.
+
+**Ejemplos:**
+- Sus PRs significativos en promedio no cuentan con más de 14/17 pedidos de cambio en promedio.
+- Promedio de rebotes de QA no es mayor al 50%.
+- Front: Implementa correctamente el diseño a partir de los entregables de diseño.
+- Backend: Implementa correctamente las interfaces acordadas con Frontend.
+- Garantiza el mínimo de cobertura de testing necesario para los pull requests que realiza.
+- Consulta y busca entender las correcciones recibidas en los pull requests que realiza.
+- Se asegura tener correctamente configuradas las herramientas de checkeo de calidad y testing (Linter, extensiones de bugs, hooks para testing, etc.) y hace uso de las mismas en sus desarrollos.

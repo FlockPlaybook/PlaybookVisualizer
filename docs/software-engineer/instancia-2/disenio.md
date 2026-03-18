@@ -1,0 +1,25 @@
+---
+id: se-instancia-2-disenio
+title: Diseño e implementación de soluciones
+sidebar_label: Diseño e implementación
+sidebar_position: 2
+---
+
+# Diseño e implementación de soluciones
+
+Realiza un análisis de requerimientos de baja complejidad, enfocado en lo implementativo. Es responsable de implementar funcionalidades no críticas ya diseñadas, pudiendo requerir asistencia, guía y seguimiento. Vela por las funcionalidades del sistema y las tecnologías de su proyecto que requieran una comprensión básica/inicial. Comprende y es consciente de las funcionalidades a desarrollar en el proyecto en el que se desempeña.
+
+> **Uso de herramientas de IA:** Comienza a familiarizarse con herramientas de asistencia basadas en IA para apoyar su aprendizaje, comprensión del código y resolución de problemas simples, respetando las políticas del proyecto.
+
+**Ejemplos:**
+- Implementa efectivamente soluciones de complejidad baja, como por ejemplo:
+  - Componentes estáticos o sin lógica
+  - Soluciones no relacionadas al core de negocio de la aplicación
+  - Agregaciones a una solución ya realizada
+  - Bug Fixing no urgente o simple
+  - Front/Mobile: Formularios, listados, maquetaciones
+  - Back: Login, ABMs de datos maestros (menor complejidad, por ejemplo todos aquellos datos de estado que no son tabulados)
+- Consulta las soluciones planteadas por sus referentes para entenderlas.
+- Utiliza el lenguaje o framework en sus casos más básicos o comunes, consultando dudas generales sobre su funcionamiento con su referente.
+- Intenta resolver problemas/impedimentos inicialmente con autonomía entendiendo el tiempo óptimo para notificar a su referente en caso de no poder solucionarlo.
+- Usa y comprende utilidades globales del sistema como: CSS global, variables de entorno, patrones básicos de desarrollo, librerías comunes a la mayoría de los proyectos, testeo y armado de request.

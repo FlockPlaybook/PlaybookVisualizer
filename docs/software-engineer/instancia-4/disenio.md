@@ -1,0 +1,31 @@
+---
+id: se-instancia-4-disenio
+title: Diseño e implementación de soluciones
+sidebar_label: Diseño e implementación
+sidebar_position: 2
+---
+
+# Diseño e implementación de soluciones
+
+Realiza un análisis de requerimientos de media/alta complejidad enfocándose en la implementación y en el diseño. Diseña e implementa funcionalidades completas de alta criticidad con seguimiento de un referente. Cuestiona y debate los diseños con los referentes del proyecto con el fin de entender las decisiones tomadas, argumentando su opinión y justificando con datos. Comprende las funcionalidades del equipo dentro de su tecnología, aportando su visión y comunicando los errores que pueda identificar.
+
+> **Uso de herramientas de IA:** Utiliza herramientas de IA de forma consciente para mejorar su productividad, calidad de entregables y capacidad de análisis, evaluando críticamente sus resultados y validándolos antes de aplicarlos.
+
+**Ejemplos:**
+- Implementa efectivamente soluciones de complejidad media/alta, como por ejemplo:
+  - Funcionalidades y componentes parte del core de negocio de la aplicación
+  - Bug Fixing urgente y no trivial en producción
+  - Implementaciones que requieren de investigación previa
+  - Front/Mobile: Interacción con CMSs u otros servicios externos, OCRs, animaciones de dificultad intermedia
+  - Backend: Endpoints complejos (websockets, polling, requests anidadas), Lambdas
+- Además de implementar componentes específicos, implementa y diseña módulos como:
+  - Flujos completos de ABMs
+  - ABM complejos (ej: AMB de Presupuestos, Facturas o Clientes)
+  - Flujos completos de Autenticación y Autorización
+  - Integraciones complejas con servicios externos, como SAP, Salesforce, etc.
+- Busca comprender las decisiones técnicas y de arquitectura tomadas por el referente y da feedback concreto al respecto de posibles mejoras.
+- Para casos de mayor complejidad y criticidad altas, valida sus soluciones con un referente.
+- Es consciente de las tareas del resto del equipo de su tecnología, haciendo propuestas y recomendaciones cuando lo ve necesario.
+- Contempla correctamente todos los fail states, incluyendo errores críticos (500, excepciones en runtime, etc.) en el flujo de la aplicación.
+- Utiliza el framework en que se especializa considerando la mejor herramienta del mismo para cada caso de uso.
+- Identifica criterios de aceptación en los issues y cards del sprint en su tecnología de expertise y los estima.

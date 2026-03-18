@@ -1,0 +1,16 @@
+---
+id: se-instancia-7-metodologias
+title: Metodología y mejora continua
+sidebar_label: Metodología y mejora continua
+sidebar_position: 4
+---
+
+# Metodología y mejora continua
+
+Se responsabiliza por el crecimiento profesional de los integrantes en su proyecto así como de los devs bajo su influencia, dando feedback crítico, capacitando en temas pertinentes o brindando los recursos para esto. Participa de las instancias formales de retroalimentación brindando devoluciones ricas y útiles para el desarrollo de sus capacidades. Mantiene actualizado al equipo sobre las nuevas herramientas que surgen y los aprendizajes de las experiencias previas. Vela de forma activa y autónoma por su aprendizaje, buscando y/o solicitando recursos para mantenerse actualizado.
+
+**Ejemplos:**
+- Participa de las instancias formales e informales de comunicación de su sub-área, así como también los espacios de construcción y consolidación de equipos.
+- Genera feedback de calidad para el resto de su equipo y capacita en la forma de hacerlo, garantizando que el equipo se retroalimente con un feedback apuntado a la mejora continua.
+- Participa de la estrategia y gestión de capacitaciones de su área.
+- Tiene conocimiento de los desafíos actuales y por venir del proyecto y utiliza esto para identificar desafíos y áreas de crecimiento que establece como objetivos de los perfiles en su entorno, guiando, capacitando y validando tanto que el perfil esté siguiendo un buen rumbo como que la tarea se esté cumpliendo de la manera correcta.
