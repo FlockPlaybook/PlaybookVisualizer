@@ -637,6 +637,38 @@ h1, h2, h3, h4, h5, h6 {
   /* Instancia headers in comparativa pages */
 }
 
+/* ---- COLLAPSE ALL BUTTON ---- */
+#flock-collapse-all-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: 100%;
+  padding: 0.42rem 0.75rem;
+  margin-bottom: 0.6rem;
+  background: transparent;
+  border: 1px solid var(--flock-border);
+  border-radius: var(--ifm-global-radius);
+  color: var(--flock-text-muted);
+  font-family: 'Syne', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+}
+
+#flock-collapse-all-btn:hover {
+  color: var(--flock-text);
+  border-color: var(--flock-text-muted);
+  background: var(--flock-surface-raised);
+}
+
+#flock-collapse-all-btn:active {
+  color: var(--flock-amber);
+  border-color: var(--flock-amber);
+}
+
 /* ---- SCROLLBAR ---- */
 ::-webkit-scrollbar { width: 5px; height: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
