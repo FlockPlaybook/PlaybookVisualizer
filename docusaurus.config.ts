@@ -35,6 +35,7 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
+          editUrl: 'https://github.com/FlockPlaybook/PlaybookVisualizer/edit/main/',
         },
         blog: false,
         theme: {
