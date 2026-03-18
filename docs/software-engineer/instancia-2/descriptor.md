@@ -1,5 +1,4 @@
 ---
-id: se-instancia-2-descriptor
 title: Instancia 2
 sidebar_label: Descriptor
 sidebar_position: 1
