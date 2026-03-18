@@ -1,30 +1,731 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/* ================================================================
+   FLOCK PLAYBOOK — EXECUTIVE NOIR
+   Dark editorial aesthetic with amber gold accents
+   Fonts: Syne (display) · Manrope (body)
+   ================================================================ */
 
-/* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap');
+
+/* ----------------------------------------------------------------
+   DESIGN TOKENS
+   ---------------------------------------------------------------- */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* Brand */
+  --flock-amber:            #E8A020;
+  --flock-amber-dim:        #C88010;
+  --flock-amber-glow:       rgba(232, 160, 32, 0.12);
+  --flock-amber-glow-soft:  rgba(232, 160, 32, 0.06);
+
+  /* Surfaces */
+  --flock-bg:               #0C0D11;
+  --flock-surface:          #13141B;
+  --flock-surface-raised:   #1A1B24;
+  --flock-border:           #1E2030;
+  --flock-border-subtle:    #14151C;
+
+  /* Text */
+  --flock-text:             #EDEADF;
+  --flock-text-muted:       #62616A;
+  --flock-text-soft:        #9A98A2;
+
+  /* IFM overrides — dark mode defaults */
+  --ifm-color-primary:            #E8A020;
+  --ifm-color-primary-dark:       #D09010;
+  --ifm-color-primary-darker:     #C08008;
+  --ifm-color-primary-darkest:    #9A6000;
+  --ifm-color-primary-light:      #F0B030;
+  --ifm-color-primary-lighter:    #F8C040;
+  --ifm-color-primary-lightest:   #FFD060;
+
+  --ifm-background-color:         var(--flock-bg);
+  --ifm-background-surface-color: var(--flock-surface);
+
+  --ifm-font-color-base:          var(--flock-text);
+  --ifm-font-color-secondary:     var(--flock-text-soft);
+
+  --ifm-link-color:               var(--flock-amber);
+  --ifm-link-hover-color:         #F0B840;
+  --ifm-link-decoration:          none;
+  --ifm-link-hover-decoration:    none;
+
+  --ifm-font-family-base:    'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  --ifm-heading-font-family: 'Syne', sans-serif;
+  --ifm-font-size-base:      15.5px;
+  --ifm-line-height-base:    1.8;
+  --ifm-font-weight-base:    400;
+  --ifm-font-weight-semibold:600;
+
+  --ifm-navbar-background-color: #080909;
+  --ifm-navbar-shadow:           0 1px 0 var(--flock-border);
+  --ifm-navbar-height:           58px;
+  --ifm-navbar-link-color:       var(--flock-text-soft);
+  --ifm-navbar-link-hover-color: var(--flock-text);
+
+  --ifm-global-radius:       3px;
+  --ifm-button-border-radius:3px;
+
+  --ifm-hr-border-color:           var(--flock-border);
+  --ifm-table-border-color:        var(--flock-border);
+  --ifm-table-head-background:     var(--flock-surface-raised);
+  --ifm-table-stripe-background:   rgba(255,255,255,0.015);
+
+  --ifm-code-background:     #191A24;
+  --ifm-code-font-size:      87%;
+  --ifm-code-border-radius:  3px;
+
+  --ifm-toc-border-color:    var(--flock-border);
+
+  --ifm-scrollbar-size:                        5px;
+  --ifm-scrollbar-track-background-color:      transparent;
+  --ifm-scrollbar-thumb-background-color:      #2A2B3A;
+  --ifm-scrollbar-thumb-hover-background-color:#3A3B4A;
+
+  --docusaurus-highlighted-code-line-bg: rgba(232, 160, 32, 0.07);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+/* Light mode — warm cream */
+[data-theme='light'] {
+  --flock-bg:             #F4EFE5;
+  --flock-surface:        #FFFDF8;
+  --flock-surface-raised: #EDE8DC;
+  --flock-border:         #DDD8CC;
+  --flock-border-subtle:  #EBE6DA;
+  --flock-text:           #18181F;
+  --flock-text-muted:     #888480;
+  --flock-text-soft:      #6E6C68;
+  --flock-amber:          #B07010;
+  --flock-amber-glow:     rgba(176, 112, 16, 0.09);
+  --flock-amber-glow-soft:rgba(176, 112, 16, 0.04);
+
+  --ifm-color-primary:            #B07010;
+  --ifm-color-primary-dark:       #9A6008;
+  --ifm-color-primary-darker:     #8A5004;
+  --ifm-color-primary-darkest:    #6A3800;
+  --ifm-color-primary-light:      #C88018;
+  --ifm-color-primary-lighter:    #D89020;
+  --ifm-color-primary-lightest:   #E8A030;
+
+  --ifm-background-color:         var(--flock-bg);
+  --ifm-background-surface-color: var(--flock-surface);
+  --ifm-font-color-base:          var(--flock-text);
+  --ifm-link-color:               var(--flock-amber);
+  --ifm-link-hover-color:         #8A5004;
+
+  --ifm-navbar-background-color:  #0C0D11;
+  --ifm-navbar-link-color:        #A8A6A0;
+  --ifm-navbar-link-hover-color:  #EDEADF;
+
+  --ifm-table-head-background:    var(--flock-surface-raised);
+  --ifm-code-background:          #EDE8DC;
+  --docusaurus-highlighted-code-line-bg: rgba(176, 112, 16, 0.07);
+}
+
+/* ----------------------------------------------------------------
+   GLOBAL
+   ---------------------------------------------------------------- */
+* { box-sizing: border-box; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--flock-bg);
+  color: var(--flock-text);
+  font-family: var(--ifm-font-family-base);
+}
+
+/* ----------------------------------------------------------------
+   NAVBAR
+   ---------------------------------------------------------------- */
+.navbar {
+  background: var(--ifm-navbar-background-color);
+  border-bottom: 1px solid var(--flock-border);
+  box-shadow: none;
+  padding: 0 1.5rem;
+}
+
+.navbar__brand {
+  gap: 0.6rem;
+}
+
+.navbar__title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  color: #EDEADF;
+}
+
+[data-theme='light'] .navbar__title {
+  color: #EDEADF;
+}
+
+.navbar__logo {
+  height: 24px;
+  width: auto;
+}
+
+.navbar__link {
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: color 0.15s ease;
+}
+
+.navbar__link--active,
+.navbar__link:hover {
+  color: var(--flock-amber) !important;
+}
+
+/* Amber accent line below navbar */
+.navbar::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--flock-border);
+}
+
+/* ----------------------------------------------------------------
+   SIDEBAR
+   ---------------------------------------------------------------- */
+.theme-doc-sidebar-container {
+  background: var(--flock-surface) !important;
+  border-right: 1px solid var(--flock-border) !important;
+}
+
+.sidebar_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Sidebar-styles-module {
+  background: var(--flock-surface);
+}
+
+nav.menu {
+  padding: 1rem 0.75rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--flock-border) transparent;
+}
+
+/* Category labels */
+.menu__link--sublist-caret,
+.menu__link--sublist {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--flock-text-muted) !important;
+  padding: 0.55rem 0.75rem;
+  margin-top: 0.25rem;
+  border-radius: var(--ifm-global-radius);
+  transition: color 0.15s, background 0.15s;
+}
+
+.menu__link--sublist-caret:hover,
+.menu__link--sublist:hover {
+  background: var(--flock-amber-glow-soft) !important;
+  color: var(--flock-text) !important;
+}
+
+/* Caret arrow */
+.menu__caret {
+  opacity: 0.5;
+  transition: opacity 0.15s;
+}
+
+.menu__link--sublist-caret:hover .menu__caret,
+.menu__list-item--collapsed .menu__caret {
+  opacity: 0.8;
+}
+
+/* Regular sidebar links */
+.menu__link:not(.menu__link--sublist) {
+  font-size: 0.835rem;
+  font-weight: 400;
+  color: var(--flock-text-soft) !important;
+  padding: 0.4rem 0.75rem 0.4rem 1.1rem;
+  border-radius: var(--ifm-global-radius);
+  border-left: 2px solid transparent;
+  margin: 1px 0;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
+}
+
+.menu__link:not(.menu__link--sublist):hover {
+  background: var(--flock-amber-glow-soft) !important;
+  color: var(--flock-text) !important;
+  border-left-color: var(--flock-border);
+}
+
+/* Active sidebar link */
+.menu__link--active:not(.menu__link--sublist) {
+  background: var(--flock-amber-glow) !important;
+  color: var(--flock-amber) !important;
+  border-left-color: var(--flock-amber) !important;
+  font-weight: 600;
+}
+
+/* Nested list indent */
+.menu__list .menu__list {
+  padding-left: 0.5rem;
+  border-left: 1px solid var(--flock-border-subtle);
+  margin-left: 0.75rem;
+}
+
+/* ----------------------------------------------------------------
+   CONTENT AREA
+   ---------------------------------------------------------------- */
+.main-wrapper {
+  background: var(--flock-bg);
+}
+
+.container.padding-top--md {
+  max-width: 820px;
+}
+
+article {
+  padding-bottom: 3rem;
+}
+
+/* ---- HEADINGS ---- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.markdown h1:first-child {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--flock-text);
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--flock-border);
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.markdown h1:first-child::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 3rem;
+  height: 2px;
+  background: var(--flock-amber);
+}
+
+.markdown h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--flock-text);
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  padding-top: 0.5rem;
+}
+
+.markdown h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--flock-amber);
+  margin-top: 1.75rem;
+  margin-bottom: 0.6rem;
+}
+
+.markdown h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--flock-text-soft);
+  letter-spacing: 0.02em;
+}
+
+/* ---- BODY TEXT ---- */
+.markdown p {
+  color: var(--flock-text-soft);
+  line-height: 1.85;
+  margin-bottom: 1rem;
+}
+
+.markdown strong {
+  color: var(--flock-text);
+  font-weight: 600;
+}
+
+/* ---- LISTS ---- */
+.markdown ul,
+.markdown ol {
+  color: var(--flock-text-soft);
+  line-height: 1.85;
+  padding-left: 1.25rem;
+}
+
+.markdown li {
+  margin-bottom: 0.3rem;
+}
+
+.markdown li::marker {
+  color: var(--flock-amber);
+  opacity: 0.7;
+}
+
+/* ---- HORIZONTAL RULE ---- */
+.markdown hr {
+  border: none;
+  border-top: 1px solid var(--flock-border);
+  margin: 2.5rem 0;
+}
+
+/* ---- LINKS ---- */
+.markdown a {
+  color: var(--flock-amber);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(232, 160, 32, 0.3);
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.markdown a:hover {
+  color: #F0B840;
+  border-bottom-color: rgba(240, 184, 64, 0.6);
+}
+
+/* ---- BLOCKQUOTE ---- */
+.markdown blockquote {
+  border-left: 3px solid var(--flock-amber);
+  background: var(--flock-amber-glow-soft);
+  padding: 0.75rem 1.25rem;
+  border-radius: 0 var(--ifm-global-radius) var(--ifm-global-radius) 0;
+  margin: 1.5rem 0;
+  color: var(--flock-text-soft);
+  font-size: 0.9rem;
+}
+
+.markdown blockquote p {
+  margin: 0;
+  color: inherit;
+}
+
+.markdown blockquote strong {
+  color: var(--flock-amber);
+}
+
+/* ---- CODE ---- */
+.markdown code {
+  background: var(--ifm-code-background);
+  border: 1px solid var(--flock-border);
+  color: #D4CFC5;
+  font-size: var(--ifm-code-font-size);
+  padding: 0.15em 0.45em;
+  border-radius: var(--ifm-code-border-radius);
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+.markdown pre {
+  background: var(--ifm-code-background) !important;
+  border: 1px solid var(--flock-border);
+  border-radius: 4px;
+}
+
+/* ---- TABLES ---- */
+.markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--flock-border);
+  border-radius: 4px;
+  overflow: hidden;
+  font-size: 0.875rem;
+  margin: 1.5rem 0;
+}
+
+.markdown table thead tr {
+  background: var(--flock-surface-raised);
+  border-bottom: 1px solid var(--flock-amber);
+}
+
+.markdown table thead th {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--flock-amber);
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.markdown table tbody tr {
+  border-top: 1px solid var(--flock-border-subtle);
+  transition: background 0.12s;
+}
+
+.markdown table tbody tr:hover {
+  background: var(--flock-amber-glow-soft);
+}
+
+.markdown table tbody td {
+  padding: 0.7rem 1rem;
+  color: var(--flock-text-soft);
+  vertical-align: top;
+  line-height: 1.65;
+}
+
+.markdown table tbody td strong {
+  color: var(--flock-text);
+  font-weight: 600;
+}
+
+/* ---- ADMONITIONS ---- */
+.admonition {
+  background: var(--flock-surface) !important;
+  border: 1px solid var(--flock-border);
+  border-left: 3px solid;
+  border-radius: 4px;
+  padding: 0.85rem 1.1rem;
+  margin: 1.5rem 0;
+}
+
+.admonition-heading h5 {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 0.4rem;
+}
+
+.admonition-content p {
+  font-size: 0.88rem;
+  margin: 0;
+  color: var(--flock-text-soft);
+}
+
+.admonition.alert--info    { border-left-color: #4A9EE8; }
+.admonition.alert--tip     { border-left-color: #3ABD7A; }
+.admonition.alert--note    { border-left-color: var(--flock-amber); }
+.admonition.alert--warning { border-left-color: #E8702A; }
+.admonition.alert--danger  { border-left-color: #E84040; }
+
+.admonition.alert--info    .admonition-heading h5 { color: #4A9EE8; }
+.admonition.alert--tip     .admonition-heading h5 { color: #3ABD7A; }
+.admonition.alert--note    .admonition-heading h5 { color: var(--flock-amber); }
+.admonition.alert--warning .admonition-heading h5 { color: #E8702A; }
+.admonition.alert--danger  .admonition-heading h5 { color: #E84040; }
+
+/* ---- BUTTONS (comparison button) ---- */
+.button {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: var(--ifm-global-radius);
+  transition: background 0.15s, color 0.15s, box-shadow 0.15s, transform 0.1s;
+  text-decoration: none !important;
+  border: none;
+}
+
+.button--primary {
+  background: var(--flock-amber);
+  color: #0C0D11 !important;
+  border: none;
+}
+
+.button--primary:hover {
+  background: #F0B030;
+  color: #0C0D11 !important;
+  box-shadow: 0 0 0 3px var(--flock-amber-glow);
+  transform: translateY(-1px);
+}
+
+.button--sm {
+  padding: 0.45rem 1rem;
+  font-size: 0.72rem;
+}
+
+/* ---- TABLE OF CONTENTS ---- */
+.table-of-contents {
+  font-size: 0.8rem;
+  border-left: 1px solid var(--flock-border);
+  padding-left: 1rem;
+}
+
+.table-of-contents__link {
+  color: var(--flock-text-muted) !important;
+  transition: color 0.15s;
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--flock-amber) !important;
+  font-weight: 600;
+}
+
+/* ---- BREADCRUMBS ---- */
+.breadcrumbs__link {
+  font-size: 0.78rem;
+  color: var(--flock-text-muted) !important;
+}
+
+.breadcrumbs__link:hover {
+  color: var(--flock-text) !important;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: var(--flock-text-soft) !important;
+  font-weight: 500;
+}
+
+/* ---- PAGINATION NAV ---- */
+.pagination-nav {
+  gap: 1rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--flock-border);
+}
+
+.pagination-nav__link {
+  background: var(--flock-surface);
+  border: 1px solid var(--flock-border);
+  border-radius: 4px;
+  padding: 0.85rem 1.1rem;
+  transition: border-color 0.15s, background 0.15s;
+  text-decoration: none !important;
+}
+
+.pagination-nav__link:hover {
+  background: var(--flock-surface-raised);
+  border-color: var(--flock-amber);
+}
+
+.pagination-nav__sublabel {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--flock-amber);
+  margin-bottom: 0.25rem;
+}
+
+.pagination-nav__label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--flock-text);
+}
+
+/* ---- FOOTER ---- */
+.footer {
+  background: #080909 !important;
+  border-top: 1px solid var(--flock-border);
+  padding: 1.5rem 0;
+}
+
+.footer__copyright {
+  font-size: 0.78rem;
+  color: var(--flock-text-muted);
+  letter-spacing: 0.02em;
+}
+
+/* ---- COMPARATIVAS PAGE HEADINGS ---- */
+.markdown h2:has(+ p, + ul) {
+  /* Instancia headers in comparativa pages */
+}
+
+/* ---- SCROLLBAR ---- */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: #2A2B3A;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover { background: #3A3B4A; }
+
+/* ---- SEARCH ---- */
+.navbar__search-input {
+  background: var(--flock-surface-raised);
+  border: 1px solid var(--flock-border);
+  color: var(--flock-text);
+  border-radius: 3px;
+}
+
+/* ---- LIGHT MODE OVERRIDES ---- */
+[data-theme='light'] .markdown table thead tr {
+  background: var(--flock-surface-raised);
+}
+
+[data-theme='light'] .button--primary {
+  color: #FFFFFF !important;
+}
+
+[data-theme='light'] .button--primary:hover {
+  color: #FFFFFF !important;
+}
+
+[data-theme='light'] .theme-doc-sidebar-container {
+  background: var(--flock-surface) !important;
+  border-right-color: var(--flock-border) !important;
+}
+
+[data-theme='light'] .menu__link:not(.menu__link--sublist) {
+  color: var(--flock-text-soft) !important;
+}
+
+[data-theme='light'] .menu__link--active:not(.menu__link--sublist) {
+  color: var(--flock-amber) !important;
+}
+
+[data-theme='light'] .admonition {
+  background: var(--flock-surface) !important;
+}
+
+/* ---- PAGE LOAD ANIMATION ---- */
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+article {
+  animation: fadeSlideIn 0.3s ease both;
+}
+
+/* ---- COMPARISON PAGE: instancia sections ---- */
+.markdown > h2 {
+  border-top: 1px solid var(--flock-border);
+  padding-top: 1.5rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--flock-text);
+}
+
+.markdown > h2::before {
+  content: attr(data-level);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  background: var(--flock-amber-glow);
+  border: 1px solid var(--flock-amber);
+  border-radius: 2px;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--flock-amber);
+  flex-shrink: 0;
 }
