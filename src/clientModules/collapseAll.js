@@ -1,7 +1,6 @@
 const BTN_ID = 'flock-collapse-all-btn';
 
 function injectCollapseButton() {
-  // Already injected
   if (document.getElementById(BTN_ID)) return;
 
   const nav = document.querySelector('nav.menu');
@@ -20,23 +19,16 @@ function injectCollapseButton() {
   `;
 
   btn.addEventListener('click', () => {
-    const expanded = document.querySelectorAll(
-      '.menu__list-item:not(.menu__list-item--collapsed) > .menu__link--sublist-caret'
+    // Target the caret toggle button inside every NON-collapsed category
+    const carets = document.querySelectorAll(
+      '.menu__list-item:not(.menu__list-item--collapsed) .menu__caret'
     );
-    expanded.forEach(link => link.click());
+    carets.forEach(caret => caret.click());
   });
 
-  // Insert at the very top of the nav, before the ul
-  const firstUl = nav.querySelector('ul');
-  if (firstUl) {
-    nav.insertBefore(btn, firstUl);
-  } else {
-    nav.appendChild(btn);
-  }
+  nav.insertBefore(btn, nav.firstChild);
 }
 
-// Docusaurus lifecycle: called after every SPA route change
 export function onRouteDidUpdate() {
-  // Small delay to let Docusaurus render the sidebar
-  setTimeout(injectCollapseButton, 50);
+  setTimeout(injectCollapseButton, 80);
 }
