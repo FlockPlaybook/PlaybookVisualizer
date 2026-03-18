@@ -1,5 +1,6 @@
 {
   "label": "Software Engineer",
   "position": 1,
-  "collapsible": false
+  "collapsible": true,
+  "collapsed": false
 }
