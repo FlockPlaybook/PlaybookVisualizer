@@ -111,9 +111,9 @@
   --ifm-link-color:               var(--flock-amber);
   --ifm-link-hover-color:         #8A5004;
 
-  --ifm-navbar-background-color:  #0C0D11;
-  --ifm-navbar-link-color:        #A8A6A0;
-  --ifm-navbar-link-hover-color:  #EDEADF;
+  --ifm-navbar-background-color:  #FFFFFF;
+  --ifm-navbar-link-color:        #4A4845;
+  --ifm-navbar-link-hover-color:  #18181F;
 
   --ifm-table-head-background:    var(--flock-surface-raised);
   --ifm-code-background:          #EDE8DC;
@@ -161,15 +161,23 @@ body {
 }
 
 [data-theme='light'] .navbar__title {
-  color: #EDEADF;
+  color: #18181F;
 }
 
-/* Color mode toggle always visible on dark navbar */
 [data-theme='light'] .navbar__items button {
-  color: #A8A6A0;
+  color: #4A4845;
 }
 [data-theme='light'] .navbar__items button:hover {
-  color: #EDEADF;
+  color: #18181F;
+}
+
+[data-theme='light'] .flock-collapse-btn {
+  color: #4A4845;
+  border-color: #DDD8CC;
+}
+[data-theme='light'] .flock-collapse-btn:hover {
+  color: #B07010;
+  border-color: #B07010;
 }
 
 .navbar__logo {
