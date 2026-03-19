@@ -164,6 +164,14 @@ body {
   color: #EDEADF;
 }
 
+/* Color mode toggle always visible on dark navbar */
+[data-theme='light'] .navbar__items button {
+  color: #A8A6A0;
+}
+[data-theme='light'] .navbar__items button:hover {
+  color: #EDEADF;
+}
+
 .navbar__logo {
   height: 24px;
   width: auto;
