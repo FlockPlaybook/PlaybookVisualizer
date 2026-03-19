@@ -48,7 +48,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-card.jpg',
     docs: {
       sidebar: {
         hideable: true,
@@ -63,7 +63,7 @@ const config: Config = {
       title: 'Playbook Visualizer',
       logo: {
         alt: 'Flock Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
