@@ -11,7 +11,7 @@ slug: /
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | Requiere resolver problemas rutinarios de bajo riesgo en camino no crítico y/o en ambiente controlado, usando la experiencia de casos anteriores, guías y pautas generales. Interactúa dentro de su propio equipo y con su referente directo. |
-| **Autonomía** | Requiere instrucciones detalladas en todas las tareas con seguimiento frecuente. |
+| **Complejidad** | Requiere resolver problemas rutinarios*  usando la experiencia de casos anteriores, guías y pautas generales. Interactúa dentro de su propio equipo y con su referente directo.   *de bajo riesgo en camino no crítico y/o en ambiente controlado |
+| **Autonomía** | Requiere instrucciones detalladas en todas la tareas con seguimiento frecuente |
 | **Impacto de las decisiones** | Las decisiones impactan en su propio trabajo y son tomadas en conjunto con su referente. |
-| **Alcance** | Contribución individual dentro de un equipo, con un alcance de trabajo reducido y predeterminado. |
+| **Alcance** | de trabajo reducido y  predeterminado. |
