@@ -1,7 +1,8 @@
 ---
-title: UX/UI - Instancia 7
+title: Instancia 7
 sidebar_label: Descriptor
 sidebar_position: 1
+slug: /
 ---
 
 # UX/UI - Instancia 7
@@ -10,7 +11,7 @@ sidebar_position: 1
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | Identifica y evalúa problemas complejos con visión holística. |
-| **Autonomía** | Máxima autonomía. Visión estratégica del producto y del diseño. |
-| **Impacto de las decisiones** | Alto impacto en el área y en la organización. |
-| **Alcance** | Referente transversal. Lidera estándares de diseño para toda la compañía. |
+| **Complejidad** | Requiere identificar y evaluar problemas complejos en su área de responsabilidad. Crea soluciones en situaciones en que  requieren análisis y evaluación en profundidad de factores variables. Adhiere a la dirección estratégica establecida por la alta dirección y lo demuestra en la definición de objetivos a corto plazo. Interactúa con la alta dirección del  cliente y / o dentro de Flock, e implica asuntos que pueden requerir la aceptación de un enfoque alternativo. Llegar a un consenso. |
+| **Autonomía** | Desarrolla  una visión holística frente a la toma de decisiones.  Actúa de forma independiente al definir métodos y pasos a seguir en nuevas responsabilidades asignadas. |
+| **Impacto de las decisiones** | Las decisiones tienen un gran impacto día a día en su área de responsabilidad |
+| **Alcance** | Gestiona equipos/responsabilidades (si se trata de un rol de contribución individual) grandes-medianos en un cliente o dentro de Flock. |

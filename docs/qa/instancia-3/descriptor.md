@@ -1,7 +1,8 @@
 ---
-title: QA - Instancia 3
+title: Instancia 3
 sidebar_label: Descriptor
 sidebar_position: 1
+slug: /
 ---
 
 # QA - Instancia 3
@@ -10,7 +11,7 @@ sidebar_position: 1
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | Complejidad baja a media. Exposición limitada con clientes bajo supervisión. |
-| **Autonomía** | Trabaja con seguimiento frecuente del referente en tareas complejas. |
-| **Impacto de las decisiones** | Las decisiones impactan en el equipo y en la calidad del producto. |
-| **Alcance** | Referente dentro del proyecto. Propone mejoras al proceso de calidad. |
+| **Complejidad** | baja. Busca apoyo/valida soluciones con pares de mayor seniority antes de presentar la solución a su referente.  Tiene exposición limitada con clientes y/o el management de Flock. |
+| **Autonomía** | Requiere instrucciones detalladas en todas la tareas con seguimiento frecuente. |
+| **Impacto de las decisiones** | Las decisiones impactan en su propio trabajo y puede impactar en el trabajo de otros. |
+| **Alcance** | de trabajo reducido y  predeterminado. |

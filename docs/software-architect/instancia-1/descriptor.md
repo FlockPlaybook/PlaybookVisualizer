@@ -1,7 +1,8 @@
 ---
-title: Software Architect - Instancia 1
+title: Instancia 1
 sidebar_label: Descriptor
 sidebar_position: 1
+slug: /
 ---
 
 # Software Architect - Instancia 1
@@ -10,7 +11,7 @@ sidebar_position: 1
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | Colabora en soluciones técnicas específicas bajo supervisión directa. |
-| **Autonomía** | Bajo supervisión directa. Requiere instrucciones en tareas nuevas. |
-| **Impacto de las decisiones** | Las decisiones impactan en su propio trabajo y en componentes específicos. |
-| **Alcance** | Contribución individual en componentes de arquitectura bajo supervisión. |
+| **Complejidad** | basados en el diseño arquitectónico.  Contribuye en la identificación de soluciones técnicas a nivel de componente o módulo.  Ayuda en la documentación de la arquitectura propuesta y de soluciones implementadas. |
+| **Autonomía** | Las tareas se realizan bajo supervisión directa de arquitectos senior o líderes de proyecto. |
+| **Impacto de las decisiones** | Las decisiones impactan en su propio trabajo |
+| **Alcance** | Suelen tomar decisiones a nivel de implementación técnica, siguiendo directrices y pautas establecidas por arquitectos senior.  Aportan ideas y sugerencias, pero las decisiones de diseño y arquitectura son tomadas por profesionales más experimentados. |

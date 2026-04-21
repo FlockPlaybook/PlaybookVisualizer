@@ -1,7 +1,8 @@
 ---
-title: Functional Analyst - Instancia 2
+title: Instancia 2
 sidebar_label: Descriptor
 sidebar_position: 1
+slug: /
 ---
 
 # Functional Analyst - Instancia 2
@@ -10,7 +11,7 @@ sidebar_position: 1
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | Problemas moderadamente complejos. Guía al equipo al definir métodos de análisis. |
-| **Autonomía** | Trabaja con guía al definir métodos. Interacción con management y clientes. |
-| **Impacto de las decisiones** | Las decisiones impactan en el equipo y en la dirección del producto. |
-| **Alcance** | Referente técnico del área de análisis. Contribuye al desarrollo del equipo. |
+| **Complejidad** | Requiere analizar y resolver problemas moderadamente complejos. A veces crea nuevas soluciones, aprovechando las oportunidades y adaptando métodos y procedimientos existentes de ser necesario. Requiere entender la dirección de la estrategia fijada por la alta dirección y cómo se relaciona con los objetivos del equipo. Interactúa en primer lugar con su (supervisor) referente  directo. Interactúa con compañeros y / o  a veces con niveles gerenciales en un cliente y/o dentro de Flock. |
+| **Autonomía** | Requiere de guía al definir métodos y pasos a seguir en nuevas responsabilidades asignadas. |
+| **Impacto de las decisiones** | Las decisiones frecuentemente impactan en sus propios equipos |
+| **Alcance** | Gestiona equipos/responsabilidades (para el caso del rol del contribuidor) pequeños en el cliente o en Flock |
