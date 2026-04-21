@@ -1,7 +1,8 @@
 ---
-title: UX/UI - Instancia 1
+title: Instancia 1
 sidebar_label: Descriptor
 sidebar_position: 1
+slug: /
 ---
 
 # UX/UI - Instancia 1
@@ -10,7 +11,7 @@ sidebar_position: 1
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | Problemas rutinarios de baja complejidad y bajo riesgo. Interactúa dentro de su propio equipo. |
-| **Autonomía** | Requiere instrucciones detalladas en todas las tareas con seguimiento frecuente. |
-| **Impacto de las decisiones** | Las decisiones impactan únicamente en su propio trabajo, tomadas en conjunto con su referente. |
-| **Alcance** | Contribución individual con alcance reducido y predeterminado. |
+| **Complejidad** | Requiere resolver problemas rutinarios (de bajo riesgo en camino no crítico y/o en ambiente controlado)  usando la experiencia de casos anteriores, guías y pautas generales. Interactúa dentro de su propio equipo y con su referente directo. |
+| **Autonomía** | Requiere instrucciones detalladas en todas la tareas con seguimiento frecuente. |
+| **Impacto de las decisiones** | Las decisiones impactan en su propio trabajo y son tomadas en conjunto con su referente. |
+| **Alcance** | de trabajo reducido y  predeterminado. |

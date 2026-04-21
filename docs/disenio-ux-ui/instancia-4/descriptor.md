@@ -1,7 +1,8 @@
 ---
-title: UX/UI - Instancia 4
+title: Instancia 4
 sidebar_label: Descriptor
 sidebar_position: 1
+slug: /
 ---
 
 # UX/UI - Instancia 4
@@ -10,7 +11,7 @@ sidebar_position: 1
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | Complejidad creciente. Tareas rutinarias con mínima instrucción. |
-| **Autonomía** | Mínima instrucción para tareas rutinarias. Probables interacciones con clientes. |
-| **Impacto de las decisiones** | Las decisiones pueden impactar al equipo y al cliente. |
-| **Alcance** | Mayor independencia en la ejecución; se involucra con cliente interno y externo. |
+| **Complejidad** | creciente. Busca apoyo/válida soluciones con pares de mayor seniority antes de presentar la solución a su referente.  Probablemente tiene algunas interacciones con clientes y/o el management de Flock. |
+| **Autonomía** | Requiere mínima instrucción para tareas rutinarias e instrucción moderada para tareas nuevas. |
+| **Impacto de las decisiones** | Las decisiones impactan en su propio trabajo y puede impactar en el trabajo de otros. |
+| **Alcance** | Contribución individual y/o supervisión de procesos/equipo delimitado. |

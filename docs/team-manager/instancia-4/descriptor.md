@@ -1,7 +1,8 @@
 ---
-title: Team Manager - Instancia 4
+title: Instancia 4
 sidebar_label: Descriptor
 sidebar_position: 1
+slug: /
 ---
 
 # Team Manager - Instancia 4
@@ -10,7 +11,7 @@ sidebar_position: 1
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | Guía al equipo al definir métodos en nuevas responsabilidades. Decisiones impactan frecuentemente en sus equipos. |
-| **Autonomía** | Alta autonomía. Toma decisiones estratégicas de gestión con mínima guía. |
-| **Impacto de las decisiones** | Las decisiones impactan en múltiples equipos y en el cliente. |
-| **Alcance** | Coordina múltiples equipos o proyectos. Referente de gestión de la compañía. |
+| **Complejidad** | de manera independiente. Busca orientación ocasional de colegas de nivel más experimentado para resolver desafíos simples. Interactúa con clientes y/o management de Flock en situaciones básicas. |
+| **Autonomía** | Requiere instrucciones moderadas sobre las tareas diarias e instrucciones detalladas para nuevas tareas |
+| **Impacto de las decisiones** | Las decisiones impactan en su propio trabajo y puede impactar en el trabajo de otros. |
+| **Alcance** | Gestiona equipos y/o responsabilidades (para el caso del rol del contribuidor) pequeños en el cliente o en Accenture |

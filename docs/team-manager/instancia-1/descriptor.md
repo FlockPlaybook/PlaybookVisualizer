@@ -1,7 +1,8 @@
 ---
-title: Team Manager - Instancia 1
+title: Instancia 1
 sidebar_label: Descriptor
 sidebar_position: 1
+slug: /
 ---
 
 # Team Manager - Instancia 1
@@ -10,7 +11,7 @@ sidebar_position: 1
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | Complejidad baja. Modera instrucción en tareas diarias. Exposición limitada con clientes. |
-| **Autonomía** | Moderada instrucción requerida. Seguimiento frecuente en tareas nuevas. |
-| **Impacto de las decisiones** | Las decisiones impactan en el equipo inmediato. |
-| **Alcance** | Gestión de un equipo pequeño dentro de un proyecto. |
+| **Complejidad** | baja. Busca apoyo/valida soluciones con pares de mayor seniority antes de presentar la solución a su referente.  Tiene exposición limitada con clientes y/o el management. |
+| **Autonomía** | Requiere moderada instrucción sobre las tareas diarias e instrucciones detalladas para tareas nuevas |
+| **Impacto de las decisiones** | Las decisiones impactan en su propio trabajo y puede impactar en el trabajo de otros. |
+| **Alcance** | de trabajo delimitado. |
