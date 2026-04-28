@@ -17,5 +17,16 @@ export function onClientEntry() {
   };
 }
 
-// No-op export to satisfy Docusaurus module format
-export function onRouteDidUpdate() {}
+// Auto-collapse all categories on first page load
+let isFirstLoad = true;
+export function onRouteDidUpdate() {
+  if (!isFirstLoad) return;
+  isFirstLoad = false;
+
+  // Small delay so the DOM is fully rendered before collapsing
+  setTimeout(() => {
+    if (window.__flockCollapseAll) {
+      window.__flockCollapseAll();
+    }
+  }, 100);
+}
