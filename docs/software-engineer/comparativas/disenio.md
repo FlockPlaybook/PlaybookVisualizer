@@ -39,7 +39,7 @@ Realiza un análisis de requerimientos de baja complejidad, enfocado en lo imple
 > **IA:** Comienza a familiarizarse con herramientas de asistencia basadas en IA para apoyar su aprendizaje, respetando las políticas del proyecto.
 
 **Ejemplos:**
-- Implementa soluciones de complejidad baja: componentes estáticos, bug fixing simple, formularios, listados, ABMs de datos maestros.
+- Implementa soluciones de complejidad baja: componentes estáticos, bug fixing simple, formularios, listados, ABMs de datos maestros. Operaciones sincrónicas simples, sin concurrencia, sin integraciones externas, flujos lineales sin ramificaciones de lógica de negocio.
 - Consulta las soluciones planteadas por sus referentes para entenderlas.
 - Utiliza el lenguaje o framework en sus casos más básicos, consultando dudas con su referente.
 - Intenta resolver problemas inicialmente con autonomía, notificando al referente cuando no puede solucionarlo.
@@ -56,7 +56,7 @@ Realiza un análisis de requerimientos de baja/media complejidad enfocado princi
 > **IA:** Está familiarizado con herramientas de asistencia basadas en IA para apoyar su aprendizaje y resolución de problemas simples.
 
 **Ejemplos:**
-- Implementa soluciones de complejidad media: login/registro completo, paginación, animaciones, integraciones simples, flujos de login custom.
+- Implementa soluciones de complejidad media: login/registro completo, paginación, animaciones, integraciones simples, flujos de login custom. Manejo de estado con múltiples fuentes, flujos multi-paso con validaciones, interacción front-back con contratos de API.
 - Cuestiona y debate las soluciones planteadas por sus referentes para entenderlas.
 - Resuelve desarrollos más comunes con autonomía.
 - Para funcionalidades que requieran investigación, propone implementaciones que luego valida con un referente.
@@ -74,7 +74,7 @@ Realiza un análisis de requerimientos de media/alta complejidad enfocándose en
 > **IA:** Utiliza herramientas de IA de forma consciente para mejorar su productividad, evaluando críticamente sus resultados y validándolos antes de aplicarlos.
 
 **Ejemplos:**
-- Implementa soluciones de complejidad media/alta: funcionalidades del core de negocio, bug fixing urgente no trivial, websockets, Lambdas.
+- Implementa soluciones de complejidad media/alta: funcionalidades del core de negocio, bug fixing urgente no trivial, websockets, Lambdas. Procesamiento asincrónico, concurrencia, seguridad en auth, optimización de queries con volúmenes crecientes.
 - Diseña e implementa módulos completos: flujos de ABMs, autenticación y autorización, integraciones complejas (SAP, Salesforce).
 - Para casos de mayor complejidad, valida sus soluciones con un referente.
 - Contempla todos los fail states incluyendo errores críticos (500, excepciones en runtime).
@@ -91,7 +91,7 @@ Realiza un análisis de requerimientos de alta complejidad enfocándose en la im
 > **IA:** Promueve el uso responsable de herramientas de IA dentro del equipo, integrándolas en los procesos de desarrollo.
 
 **Ejemplos:**
-- Implementa recurrentemente soluciones de alta complejidad: integración bluetooth/GPS, push notifications, flujos de pagos.
+- Implementa recurrentemente soluciones de alta complejidad: integración bluetooth/GPS, push notifications, flujos de pagos. Comunicación en tiempo real, concurrencia a escala, performance con constraints de latencia, flujos transaccionales con rollback y consistencia eventual.
 - A la hora de plantear soluciones incorpora al equipo y genera espacios de debate.
 - Da soporte a perfiles con menor seniority en el diseño de soluciones.
 - Estima propuestas comerciales y proyectos.
@@ -109,7 +109,7 @@ Realiza análisis de requerimientos de alta complejidad, entiende las necesidade
 > **IA:** Promueve el uso responsable de herramientas de IA dentro de Flock o su área de afinidad.
 
 **Ejemplos:**
-- Lidera Plan de Producción (trackeo de errores, branching model, rollback), apoya en infraestructura, participa en estrategia de microservicios.
+- Lidera Plan de Producción (trackeo de errores, branching model, rollback), apoya en infraestructura, participa en estrategia de microservicios. Diseño con alta disponibilidad, tolerancia a fallos, degradación graceful, observabilidad end-to-end y decisiones de escalabilidad.
 - Toma decisiones conociendo las limitaciones a nivel negocio y tecnológico de su equipo completo.
 - Mantiene informado al equipo sobre deadlines, impedimentos del cliente, demoras con proveedores y problemas en la interacción entre capas.
 - Lidera la adopción de herramientas de IA en el proyecto, integrándolas en pipelines de CI/CD (code review automatizado, detección de vulnerabilidades, generación de tests de regresión), midiendo ROI y reportando resultados a stakeholders.
