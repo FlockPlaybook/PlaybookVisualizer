@@ -14,6 +14,8 @@ sidebar_position: 1
 
 Es responsable de desarrollar sus conocimientos a través de las capacitaciones que componen su formación inicial y de sus referentes en su primer proyecto. Su objetivo es aprender, analizar y desarrollar tareas de baja complejidad.
 
+> **IA:** Comienza a explorar herramientas de asistencia basadas en IA como apoyo en su aprendizaje inicial.
+
 **Ejemplos:**
 - Asistir a sesiones de formación sobre metodologías ágiles, como Scrum o Kanban.
 - Completar cursos en línea sobre fundamentos de programación en lenguajes específicos utilizados en la empresa, como Java, NodeJS o Angular.
@@ -25,6 +27,8 @@ Es responsable de desarrollar sus conocimientos a través de las capacitaciones 
 - Crear y mantener documentación técnica básica de las tareas desarrolladas.
 - Documentar problemas encontrados y soluciones aplicadas para referencia futura.
 - Aprender a utilizar sistemas de seguimiento de errores y gestión de proyectos, como Jira.
+- Utiliza asistentes de IA (ej. GitHub Copilot, ChatGPT) para comprender fragmentos de código, conceptos nuevos o mensajes de error, validando las respuestas con su referente.
+- Aprende a formular prompts efectivos para obtener explicaciones técnicas y soluciones a problemas básicos de código.
 
 ---
 
@@ -35,11 +39,13 @@ Realiza un análisis de requerimientos de baja complejidad, enfocado en lo imple
 > **IA:** Comienza a familiarizarse con herramientas de asistencia basadas en IA para apoyar su aprendizaje, respetando las políticas del proyecto.
 
 **Ejemplos:**
-- Implementa soluciones de complejidad baja: componentes estáticos, bug fixing simple, formularios, listados, ABMs de datos maestros.
+- Implementa soluciones de complejidad baja: componentes estáticos, bug fixing simple, formularios, listados, ABMs de datos maestros. Operaciones sincrónicas simples, sin concurrencia, sin integraciones externas, flujos lineales sin ramificaciones de lógica de negocio.
 - Consulta las soluciones planteadas por sus referentes para entenderlas.
 - Utiliza el lenguaje o framework en sus casos más básicos, consultando dudas con su referente.
 - Intenta resolver problemas inicialmente con autonomía, notificando al referente cuando no puede solucionarlo.
 - Usa y comprende utilidades globales del sistema: CSS global, variables de entorno, patrones básicos.
+- Integra herramientas de IA (ej. Copilot, Claude) en su flujo de desarrollo diario para acelerar la implementación, revisando críticamente cada sugerencia antes de aceptarla.
+- Usa IA para generar tests unitarios, explorar enfoques alternativos de implementación y analizar código que no conoce, contrastando los resultados con la documentación del proyecto.
 
 ---
 
@@ -50,12 +56,14 @@ Realiza un análisis de requerimientos de baja/media complejidad enfocado princi
 > **IA:** Está familiarizado con herramientas de asistencia basadas en IA para apoyar su aprendizaje y resolución de problemas simples.
 
 **Ejemplos:**
-- Implementa soluciones de complejidad media: login/registro completo, paginación, animaciones, integraciones simples, flujos de login custom.
+- Implementa soluciones de complejidad media: login/registro completo, paginación, animaciones, integraciones simples, flujos de login custom. Manejo de estado con múltiples fuentes, flujos multi-paso con validaciones, interacción front-back con contratos de API.
 - Cuestiona y debate las soluciones planteadas por sus referentes para entenderlas.
 - Resuelve desarrollos más comunes con autonomía.
 - Para funcionalidades que requieran investigación, propone implementaciones que luego valida con un referente.
 - Usa patrones de diseño y manejo de estado con autonomía, haciendo consultas ocasionales.
 - Contempla correctamente la mayoría de los fail states en el flujo.
+- Utiliza IA como herramienta de análisis para evaluar distintas soluciones ante un problema de implementación, comparando trade-offs antes de proponer un enfoque a su referente.
+- Genera con IA borradores de código, tests y documentación técnica que luego refina con criterio propio, acelerando su velocidad de entrega sin sacrificar calidad.
 
 ---
 
@@ -66,11 +74,13 @@ Realiza un análisis de requerimientos de media/alta complejidad enfocándose en
 > **IA:** Utiliza herramientas de IA de forma consciente para mejorar su productividad, evaluando críticamente sus resultados y validándolos antes de aplicarlos.
 
 **Ejemplos:**
-- Implementa soluciones de complejidad media/alta: funcionalidades del core de negocio, bug fixing urgente no trivial, websockets, Lambdas.
+- Implementa soluciones de complejidad media/alta: funcionalidades del core de negocio, bug fixing urgente no trivial, websockets, Lambdas. Procesamiento asincrónico, concurrencia, seguridad en auth, optimización de queries con volúmenes crecientes.
 - Diseña e implementa módulos completos: flujos de ABMs, autenticación y autorización, integraciones complejas (SAP, Salesforce).
 - Para casos de mayor complejidad, valida sus soluciones con un referente.
 - Contempla todos los fail states incluyendo errores críticos (500, excepciones en runtime).
 - Identifica criterios de aceptación en las cards del sprint y los estima.
+- Define y comunica al equipo buenas prácticas de uso de IA en el desarrollo (qué herramientas usar, cómo validar outputs, cuándo NO confiar en una sugerencia), asegurando un uso consciente y productivo.
+- Usa IA para acelerar tareas de alto impacto: análisis de código legacy, refactoring asistido, generación de tests de integración y revisión de PRs, evaluando críticamente cada output.
 
 ---
 
@@ -81,12 +91,14 @@ Realiza un análisis de requerimientos de alta complejidad enfocándose en la im
 > **IA:** Promueve el uso responsable de herramientas de IA dentro del equipo, integrándolas en los procesos de desarrollo.
 
 **Ejemplos:**
-- Implementa recurrentemente soluciones de alta complejidad: integración bluetooth/GPS, push notifications, flujos de pagos.
+- Implementa recurrentemente soluciones de alta complejidad: integración bluetooth/GPS, push notifications, flujos de pagos. Comunicación en tiempo real, concurrencia a escala, performance con constraints de latencia, flujos transaccionales con rollback y consistencia eventual.
 - A la hora de plantear soluciones incorpora al equipo y genera espacios de debate.
 - Da soporte a perfiles con menor seniority en el diseño de soluciones.
 - Estima propuestas comerciales y proyectos.
 - Presenta más de una solución para funcionalidades complejas, planteando ventajas y desventajas.
 - Propone soluciones balanceando timing de delivery con escalabilidad, asumiendo deuda técnica con conciencia.
+- Diseña e implementa flujos de trabajo que integran IA en el ciclo de desarrollo del equipo (code review asistido, generación de tests de regresión, análisis de impacto de cambios).
+- Evalúa nuevas herramientas de IA para el proyecto, midiendo su impacto real en productividad y calidad, y decide su incorporación al stack con criterio técnico.
 
 ---
 
@@ -97,9 +109,11 @@ Realiza análisis de requerimientos de alta complejidad, entiende las necesidade
 > **IA:** Promueve el uso responsable de herramientas de IA dentro de Flock o su área de afinidad.
 
 **Ejemplos:**
-- Lidera Plan de Producción (trackeo de errores, branching model, rollback), apoya en infraestructura, participa en estrategia de microservicios.
+- Lidera Plan de Producción (trackeo de errores, branching model, rollback), apoya en infraestructura, participa en estrategia de microservicios. Diseño con alta disponibilidad, tolerancia a fallos, degradación graceful, observabilidad end-to-end y decisiones de escalabilidad.
 - Toma decisiones conociendo las limitaciones a nivel negocio y tecnológico de su equipo completo.
 - Mantiene informado al equipo sobre deadlines, impedimentos del cliente, demoras con proveedores y problemas en la interacción entre capas.
+- Lidera la adopción de herramientas de IA en el proyecto, integrándolas en pipelines de CI/CD (code review automatizado, detección de vulnerabilidades, generación de tests de regresión), midiendo ROI y reportando resultados a stakeholders.
+- Define estándares de uso de IA a nivel proyecto o área, capacitando al equipo y estableciendo políticas de validación, seguridad y governance sobre los outputs generados.
 
 ---
 
@@ -115,3 +129,6 @@ Es responsable de la dirección técnica y estado de los proyectos en donde part
 - Propone y ejecuta cambios estructurales en arquitectura, procesos y tooling cuando el modelo actual no acompaña el crecimiento.
 - Lidera revisiones técnicas profundas (audits), documentando hallazgos, recomendaciones y roadmap de mejoras.
 - Evalúa tecnologías y frameworks, liderando pruebas de concepto y recomendando su adopción con fundamentos.
+- Define la estrategia de adopción de IA a nivel organizacional, evaluando herramientas emergentes, su alineación con objetivos de negocio y su impacto en la cultura de desarrollo.
+- Impulsa iniciativas de innovación con IA que trascienden el proyecto individual (frameworks internos de prompting, plataformas de coding assistants, métricas de productividad con IA).
+- Define políticas de governance de IA a nivel empresa, representando a la organización en decisiones de adopción con impacto cross-proyecto.
