@@ -47,6 +47,8 @@ function parseCookieHeader(cookieHeader: string): Record<string, string> {
  * Must start with "/" but NOT "//" and must NOT contain ":" or "\".
  * The backslash check is required because browsers normalize "\"->"/"
  * so "/\evil.com" resolves to "//evil.com" (protocol-relative redirect).
+ * Control characters are rejected because a newline in the value would
+ * make the "Location" header throw at setHeader (self-inflicted 500).
  */
 function safeReturnTo(value: string | undefined): string {
   if (
@@ -54,7 +56,8 @@ function safeReturnTo(value: string | undefined): string {
     value.startsWith("/") &&
     !value.startsWith("//") &&
     !value.includes(":") &&
-    !value.includes("\\")
+    !value.includes("\\") &&
+    !/[\x00-\x1f\x7f]/.test(value)
   ) {
     return value;
   }

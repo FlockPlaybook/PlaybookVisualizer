@@ -47,15 +47,17 @@ export default async function handler(
   // Capture the original destination for post-login redirect.
   // Apply the same open-redirect guard used in callback.ts/safeReturnTo:
   // reject any value that does not start with "/", starts with "//",
-  // contains ":", or contains "\" (browsers normalize "\"→"/" enabling
-  // protocol-relative redirects via "/\evil.com").
+  // contains ":", "\" (browsers normalize "\"→"/" enabling protocol-relative
+  // redirects via "/\evil.com"), or any control character (a newline would
+  // make the later "Location" header throw at setHeader → 500).
   function isSafePath(value: string | undefined): value is string {
     return (
       typeof value === "string" &&
       value.startsWith("/") &&
       !value.startsWith("//") &&
       !value.includes(":") &&
-      !value.includes("\\")
+      !value.includes("\\") &&
+      !/[\x00-\x1f\x7f]/.test(value)
     );
   }
 
