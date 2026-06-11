@@ -4,6 +4,11 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+// Vercel serves the site at the domain root; GitHub Pages serves it under
+// a project subpath. Detect the host via the VERCEL env var so a single
+// config works for both deploy targets without breaking either.
+const isVercel = process.env.VERCEL === '1';
+
 const config: Config = {
   title: 'Playbook Visualizer',
   tagline: 'Flock Tech — Roles y Responsabilidades',
@@ -13,8 +18,10 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://flockplaybook.github.io',
-  baseUrl: '/PlaybookVisualizer/',
+  url: isVercel
+    ? 'https://playbook-visualizer.vercel.app'
+    : 'https://flockplaybook.github.io',
+  baseUrl: isVercel ? '/' : '/PlaybookVisualizer/',
 
   organizationName: 'FlockPlaybook',
   projectName: 'PlaybookVisualizer',
