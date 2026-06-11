@@ -1,6 +1,15 @@
-// Edge-safe session library — ONLY import is `jose`.
+// Edge-safe session library — ONLY dependency is `jose`.
 // No Node built-ins (no crypto, http, fs, etc.).
-import { SignJWT, jwtVerify } from "jose";
+//
+// jose v6 is ESM-only. This module is bundled into BOTH the Edge middleware
+// (ESM runtime — fine) and the Node CJS api/auth functions (a require() of an
+// ESM module throws ERR_REQUIRE_ESM). Load jose via dynamic import() so it
+// works in both runtimes.
+let josePromise: Promise<typeof import("jose")> | null = null;
+function loadJose(): Promise<typeof import("jose")> {
+  if (!josePromise) josePromise = import("jose");
+  return josePromise;
+}
 
 export interface SessionPayload {
   sub?: string;
@@ -19,6 +28,7 @@ function getSecret(): Uint8Array {
  * Signs a session payload as an HS256 JWT with an 8-hour expiry.
  */
 export async function signSession(payload: SessionPayload): Promise<string> {
+  const { SignJWT } = await loadJose();
   return new SignJWT({ ...payload })
     .setProtectedHeader({ alg: "HS256" })
     .setIssuedAt()
@@ -31,6 +41,7 @@ export async function signSession(payload: SessionPayload): Promise<string> {
  * Throws if the token is invalid, expired, or tampered.
  */
 export async function verifySession(token: string): Promise<SessionPayload> {
+  const { jwtVerify } = await loadJose();
   const { payload } = await jwtVerify(token, getSecret(), {
     algorithms: ["HS256"],
   });
