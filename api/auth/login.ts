@@ -42,7 +42,7 @@ export default async function handler(
   const currentUrl = new URL(req.url ?? "/api/auth/login", origin);
 
   const { verifier, challenge } = await generatePkce();
-  const state = generateState();
+  const state = await generateState();
 
   // Capture the original destination for post-login redirect.
   // Apply the same open-redirect guard used in callback.ts/safeReturnTo:

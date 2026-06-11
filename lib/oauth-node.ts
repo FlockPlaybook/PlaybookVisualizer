@@ -1,7 +1,18 @@
 // NODE-ONLY — never import from middleware.ts
 // This module uses openid-client v6 which pulls Node built-ins (crypto, http).
 // The ESLint boundary guard in eslint.config.js enforces this at lint time.
-import * as client from "openid-client";
+import type * as client from "openid-client";
+
+// openid-client v6 is ESM-only. On Vercel the compiled function runs as
+// CommonJS (no "type":"module" in package.json), so a static require() of the
+// ESM module throws ERR_REQUIRE_ESM at runtime. Load it via dynamic import()
+// instead — that works from both CJS and ESM output. The `import type` above
+// is erased at compile time and produces no runtime require().
+let oidcPromise: Promise<typeof import("openid-client")> | null = null;
+function loadOidc(): Promise<typeof import("openid-client")> {
+  if (!oidcPromise) oidcPromise = import("openid-client");
+  return oidcPromise;
+}
 
 const ENTRA_CLIENT_ID = process.env.ENTRA_CLIENT_ID ?? "";
 const ENTRA_TENANT_ID = process.env.ENTRA_TENANT_ID ?? "";
@@ -12,11 +23,12 @@ let cachedConfig: client.Configuration | null = null;
 async function getOAuthConfig(): Promise<client.Configuration> {
   if (cachedConfig) return cachedConfig;
 
+  const oidc = await loadOidc();
   const issuer = new URL(
     `https://login.microsoftonline.com/${ENTRA_TENANT_ID}/v2.0`
   );
 
-  cachedConfig = await client.discovery(issuer, ENTRA_CLIENT_ID, ENTRA_CLIENT_SECRET);
+  cachedConfig = await oidc.discovery(issuer, ENTRA_CLIENT_ID, ENTRA_CLIENT_SECRET);
   return cachedConfig;
 }
 
@@ -27,16 +39,18 @@ export async function generatePkce(): Promise<{
   verifier: string;
   challenge: string;
 }> {
-  const verifier = client.randomPKCECodeVerifier();
-  const challenge = await client.calculatePKCECodeChallenge(verifier);
+  const oidc = await loadOidc();
+  const verifier = oidc.randomPKCECodeVerifier();
+  const challenge = await oidc.calculatePKCECodeChallenge(verifier);
   return { verifier, challenge };
 }
 
 /**
  * Generates a cryptographically random OAuth state string.
  */
-export function generateState(): string {
-  return client.randomState();
+export async function generateState(): Promise<string> {
+  const oidc = await loadOidc();
+  return oidc.randomState();
 }
 
 /**
@@ -49,11 +63,12 @@ export async function buildAuthorizationUrl(
   codeChallenge: string,
   currentUrl: URL
 ): Promise<URL> {
+  const oidc = await loadOidc();
   const config = await getOAuthConfig();
 
   const redirectUri = new URL("/api/auth/callback", currentUrl.origin).href;
 
-  const authUrl = client.buildAuthorizationUrl(config, {
+  const authUrl = oidc.buildAuthorizationUrl(config, {
     redirect_uri: redirectUri,
     scope: "openid email profile",
     state,
@@ -83,9 +98,10 @@ export async function exchangeCodeAndValidate(
   currentUrl: URL,
   expectedState: string
 ): Promise<client.IDToken & Record<string, unknown>> {
+  const oidc = await loadOidc();
   const config = await getOAuthConfig();
 
-  const tokens = await client.authorizationCodeGrant(config, currentUrl, {
+  const tokens = await oidc.authorizationCodeGrant(config, currentUrl, {
     pkceCodeVerifier: verifier,
     expectedState,
   });
