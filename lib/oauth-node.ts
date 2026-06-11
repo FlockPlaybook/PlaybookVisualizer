@@ -72,17 +72,22 @@ export async function buildAuthorizationUrl(
  * @param code - The authorization code from the callback query param
  * @param verifier - The PKCE code verifier stored in the transient cookie
  * @param currentUrl - The full callback URL (used to derive redirect_uri)
+ * @param expectedState - The state value stored in the __oauth_state cookie;
+ *   passed to openid-client so it validates the echoed state parameter.
+ *   In oauth4webapi, `undefined` means "expect NO state" (throws if state IS
+ *   present), so the caller MUST supply the stored value explicitly.
  */
 export async function exchangeCodeAndValidate(
   code: string,
   verifier: string,
-  currentUrl: URL
+  currentUrl: URL,
+  expectedState: string
 ): Promise<client.IDToken & Record<string, unknown>> {
   const config = await getOAuthConfig();
 
   const tokens = await client.authorizationCodeGrant(config, currentUrl, {
     pkceCodeVerifier: verifier,
-    expectedState: undefined, // state validated by caller before this call
+    expectedState,
   });
 
   const claims = tokens.claims();

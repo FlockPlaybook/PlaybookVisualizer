@@ -44,14 +44,17 @@ function parseCookieHeader(cookieHeader: string): Record<string, string> {
 
 /**
  * Validates a post-login return path to prevent open redirects.
- * Must start with "/" but NOT "//" and must NOT contain ":".
+ * Must start with "/" but NOT "//" and must NOT contain ":" or "\".
+ * The backslash check is required because browsers normalize "\"->"/"
+ * so "/\evil.com" resolves to "//evil.com" (protocol-relative redirect).
  */
 function safeReturnTo(value: string | undefined): string {
   if (
     typeof value === "string" &&
     value.startsWith("/") &&
     !value.startsWith("//") &&
-    !value.includes(":")
+    !value.includes(":") &&
+    !value.includes("\\")
   ) {
     return value;
   }
@@ -103,7 +106,9 @@ export default async function handler(
 
   let claims: Record<string, unknown>;
   try {
-    claims = await exchangeCodeAndValidate(code, verifier, currentUrl);
+    // Pass storedState so openid-client validates the echoed state parameter.
+    // The manual CSRF check above (lines 82-87) remains as defense-in-depth.
+    claims = await exchangeCodeAndValidate(code, verifier, currentUrl, storedState);
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : String(err);
     // Tenant mismatch is explicit 403; all other token errors are 400
