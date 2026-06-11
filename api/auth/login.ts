@@ -44,10 +44,25 @@ export default async function handler(
   const { verifier, challenge } = await generatePkce();
   const state = generateState();
 
-  // Capture the original destination for post-login redirect
-  const returnTo =
+  // Capture the original destination for post-login redirect.
+  // Apply the same open-redirect guard used in callback.ts/safeReturnTo:
+  // reject any value that does not start with "/", starts with "//",
+  // contains ":", or contains "\" (browsers normalize "\"→"/" enabling
+  // protocol-relative redirects via "/\evil.com").
+  function isSafePath(value: string | undefined): value is string {
+    return (
+      typeof value === "string" &&
+      value.startsWith("/") &&
+      !value.startsWith("//") &&
+      !value.includes(":") &&
+      !value.includes("\\")
+    );
+  }
+
+  const rawReturnTo =
     (new URL(currentUrl).searchParams.get("returnTo")) ??
     (req.headers["referer"] ? new URL(req.headers["referer"] as string).pathname : undefined);
+  const returnTo = isSafePath(rawReturnTo) ? rawReturnTo : undefined;
 
   const authUrl = await buildAuthorizationUrl(state, challenge, currentUrl);
 
