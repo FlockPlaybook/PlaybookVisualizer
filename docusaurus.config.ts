@@ -45,6 +45,18 @@ const config: Config = {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/FlockPlaybook/PlaybookVisualizer/edit/main/',
+          // Temporarily disabled playbooks: excluded from the build entirely
+          // (no route, no sidebar entry, no pagination, not in the sitemap) so
+          // they're unreachable while navigating the site. The MDX files stay
+          // in the repo untouched — to re-activate, delete the two globs below.
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+            'infrastructure/**',
+            'quality-automation/**',
+          ],
         },
         blog: false,
         theme: {
