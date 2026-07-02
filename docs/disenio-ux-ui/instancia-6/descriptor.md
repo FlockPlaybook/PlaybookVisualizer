@@ -2,7 +2,6 @@
 title: Instancia 6
 sidebar_label: Descriptor
 sidebar_position: 1
-slug: /
 ---
 
 # UX/UI - Instancia 6

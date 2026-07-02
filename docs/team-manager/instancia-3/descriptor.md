@@ -2,7 +2,6 @@
 title: Instancia 3
 sidebar_label: Descriptor
 sidebar_position: 1
-slug: /
 ---
 
 # Team Manager - Instancia 3

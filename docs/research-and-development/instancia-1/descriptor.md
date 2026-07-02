@@ -2,7 +2,6 @@
 title: Instancia 1
 sidebar_label: Descriptor
 sidebar_position: 1
-slug: /
 ---
 
 # R&D - Instancia 1
