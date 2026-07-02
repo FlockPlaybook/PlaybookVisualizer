@@ -11,7 +11,7 @@ slug: /
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | Requiere analizar y resolver problemas moderadamente complejos. A veces crea nuevas soluciones, aprovechando las oportunidades y adaptando métodos y procedimientos existentes de ser necesario. Requiere entender la dirección de la estrategia fijada por la alta dirección y cómo se relaciona con los objetivos del equipo. Interactúa en primer lugar con su (supervisor) referente  directo. Interactúa con compañeros y / o  a veces con niveles gerenciales en un cliente y/o dentro de Flock |
-| **Autonomía** | Requiere de guía al definir métodos y pasos a seguir en nuevas responsabilidades asignadas. |
-| **Impacto de las decisiones** | Las decisiones frecuentemente impactan en sus propios equipos |
-| **Alcance** | Gestiona equipos/responsabilidades (para el caso del rol del contribuidor) pequeños en el cliente o en Flock |
+| **Complejidad** | Requiere análisis y resolución de problemas de complejidad media/alta. Puede llevarlas adelante en base a su propio conocimiento y sabe reconocer cuando una mirada externa le aportaría a la misma. Tiene interacciones regulares con el cliente y algunas veces con el management de Flock. |
+| **Autonomía** | Normalmente no requiere instrucción para tareas rutinarias, en tareas nuevas la instrucción requerida es acotada y es proactivo en la búsqueda del soporte requerido. |
+| **Impacto de las decisiones** | Las decisiones impactan frecuentemente en el equipo en el que se encuentra y bajo demanda impactan sobre otros. |
+| **Alcance** | Gestiona equipos/responsabilidades (si se trata de un rol de contribución individual) pequeños-medianos , en un cliente o dentro de Flock. |

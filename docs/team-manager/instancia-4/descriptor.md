@@ -11,7 +11,7 @@ slug: /
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | de manera independiente. Busca orientación ocasional de colegas de nivel más experimentado para resolver desafíos simples. Interactúa con clientes y/o management de Flock en situaciones básicas. |
-| **Autonomía** | Requiere instrucciones moderadas sobre las tareas diarias e instrucciones detalladas para nuevas tareas |
-| **Impacto de las decisiones** | Las decisiones impactan en su propio trabajo y puede impactar en el trabajo de otros. |
-| **Alcance** | Gestiona equipos y/o responsabilidades (para el caso del rol del contribuidor) pequeños en el cliente o en Accenture |
+| **Complejidad** | Requiere de guía al definir métodos y pasos a seguir en nuevas responsabilidades asignadas. |
+| **Autonomía** | Requiere de guía al definir métodos y pasos a seguir en nuevas responsabilidades asignadas. |
+| **Impacto de las decisiones** | Las decisiones frecuentemente impactan en sus propios equipos. |
+| **Alcance** | Gestiona equipos/responsabilidades (para el caso del rol del contribuidor) pequeños en el cliente o en Flock. |
