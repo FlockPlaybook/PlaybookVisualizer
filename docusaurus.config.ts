@@ -66,6 +66,24 @@ const config: Config = {
     ],
   ],
 
+  // Offline, client-side search. The site is gated behind Entra ID auth, so a
+  // crawler-based service (Algolia) can't reach it — this plugin builds a
+  // static index at build time that ships with the site and runs in-browser.
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['es'],
+        indexDocs: true,
+        // Docs are served at the site root (routeBasePath: '/').
+        docsRouteBasePath: '/',
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 8,
+      },
+    ],
+  ],
+
   themeConfig: {
     image: 'img/social-card.jpg',
     docs: {
