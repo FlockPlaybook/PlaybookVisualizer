@@ -10,7 +10,7 @@ sidebar_position: 1
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | Problemas rutinarios de baja complejidad. Trabaja en ambientes controlados con guías claras. |
-| **Autonomía** | Requiere instrucciones detalladas con seguimiento frecuente. |
-| **Impacto de las decisiones** | Las decisiones impactan en su propio trabajo. |
-| **Alcance** | Contribución individual dentro del equipo, con alcance reducido. |
+| **Complejidad** | Requiere resolver problemas rutinarios (de bajo riesgo en camino no crítico y/o en ambiente controlado) usando la experiencia de casos anteriores, guías y pautas generales. Interactúa dentro de su propio equipo y con su referente directo. |
+| **Autonomía** | Requiere instrucciones detalladas en todas las tareas con seguimiento frecuente. |
+| **Impacto de las decisiones** | Las decisiones impactan en su propio trabajo y son tomadas en conjunto con su referente. |
+| **Alcance** | Contribución individual dentro de un equipo, con un alcance de trabajo reducido y predeterminado. |

@@ -10,7 +10,7 @@ sidebar_position: 1
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | Complejidad creciente. Algunas interacciones con clientes y management. |
-| **Autonomía** | Alta autonomía. Mínima instrucción para tareas rutinarias. |
-| **Impacto de las decisiones** | Las decisiones impactan en la calidad del proyecto y en la relación con el cliente. |
-| **Alcance** | Referente de QA dentro y fuera del proyecto. Lidera aseguramiento de calidad. |
+| **Complejidad** | Requiere análisis y resolución de problemas de complejidad creciente. Busca apoyo/valida soluciones con pares de mayor seniority antes de presentar la solución a su referente. Probablemente tiene algunas interacciones con clientes y/o el management de Flock. |
+| **Autonomía** | Requiere instrucciones detalladas en todas las tareas con seguimiento frecuente. |
+| **Impacto de las decisiones** | Las decisiones impactan en su propio trabajo y puede impactar en el trabajo de otros. |
+| **Alcance** | Contribución individual y/o supervisión de procesos/equipo delimitado. |
