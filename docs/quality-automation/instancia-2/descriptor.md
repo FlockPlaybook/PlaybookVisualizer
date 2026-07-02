@@ -2,7 +2,6 @@
 title: Instancia 2
 sidebar_label: Descriptor
 sidebar_position: 1
-slug: /
 ---
 
 # Quality Automation - Instancia 2

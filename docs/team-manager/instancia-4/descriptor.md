@@ -2,7 +2,6 @@
 title: Instancia 4
 sidebar_label: Descriptor
 sidebar_position: 1
-slug: /
 ---
 
 # Team Manager - Instancia 4

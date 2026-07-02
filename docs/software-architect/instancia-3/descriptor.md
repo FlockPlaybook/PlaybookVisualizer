@@ -2,7 +2,6 @@
 title: Instancia 3
 sidebar_label: Descriptor
 sidebar_position: 1
-slug: /
 ---
 
 # Software Architect - Instancia 3
