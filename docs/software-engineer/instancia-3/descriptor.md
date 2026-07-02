@@ -10,7 +10,7 @@ sidebar_position: 1
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | baja. Busca apoyo/válida soluciones con pares de mayor seniority antes de presentar la solución a su referente. Tiene exposición limitada con clientes y/o el management. |
+| **Complejidad** | Requiere análisis y resolución de problemas de complejidad baja/media. Busca apoyo/valida soluciones con pares de mayor seniority antes de presentar la solución a su referente. Tiene exposición limitada con clientes y/o el management. |
 | **Autonomía** | Requiere moderada instrucción sobre las tareas diarias e instrucciones detalladas para tareas nuevas |
 | **Impacto de las decisiones** | Las decisiones impactan en su propio trabajo y puede impactar en el trabajo de otros. |
-| **Alcance** | de trabajo delimitado. |
+| **Alcance** | Contribución individual dentro de un equipo, con un alcance de trabajo delimitado. |
