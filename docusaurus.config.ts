@@ -91,6 +91,10 @@ const config: Config = {
           value: '<button class="flock-collapse-btn" onclick="window.__flockCollapseAll&&window.__flockCollapseAll()" title="Colapsar todas las categorías"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="4" height="4" rx="0.5" stroke="currentColor" stroke-width="1.4"/><rect x="7" y="1" width="4" height="4" rx="0.5" stroke="currentColor" stroke-width="1.4"/><rect x="1" y="7" width="4" height="4" rx="0.5" stroke="currentColor" stroke-width="1.4"/><rect x="7" y="7" width="4" height="4" rx="0.5" stroke="currentColor" stroke-width="1.4"/></svg>Colapsar todo</button>',
         },
         {
+          type: 'custom-playbookExport',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/FlockPlaybook/PlaybookVisualizer',
           label: 'GitHub',
           position: 'right',

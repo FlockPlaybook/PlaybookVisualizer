@@ -1,0 +1,30 @@
+@media print {
+  /* Each instancia starts on a fresh page (the first one keeps the flow). */
+  .instancia {
+    break-before: page;
+  }
+
+  .instancia:first-of-type {
+    break-before: auto;
+  }
+
+  /* Strip site chrome so only the playbook content is printed. */
+  :global(.navbar),
+  :global(.footer),
+  :global(.theme-doc-sidebar-container),
+  :global(.pagination-nav),
+  :global(.theme-doc-toc-desktop),
+  :global([data-print-hide]) {
+    display: none !important;
+  }
+
+  :global(html),
+  :global(body) {
+    background: #fff !important;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 16mm;
+}
