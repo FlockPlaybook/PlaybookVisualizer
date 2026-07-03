@@ -771,3 +771,9 @@ article {
   color: var(--flock-amber);
   flex-shrink: 0;
 }
+
+/* Headings that are not numbered instancia sections (e.g. "Descriptor")
+   have no data-level set by the client module, so they get no badge. */
+.markdown > h2:not([data-level])::before {
+  display: none;
+}

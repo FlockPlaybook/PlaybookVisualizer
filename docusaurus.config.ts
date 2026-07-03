@@ -30,7 +30,10 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  clientModules: ['./src/clientModules/collapseAll.js'],
+  clientModules: [
+    './src/clientModules/collapseAll.js',
+    './src/clientModules/instanciaBadges.js',
+  ],
 
   i18n: {
     defaultLocale: 'es',
