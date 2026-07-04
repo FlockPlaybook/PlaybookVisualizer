@@ -33,6 +33,7 @@ const config: Config = {
   clientModules: [
     './src/clientModules/collapseAll.js',
     './src/clientModules/instanciaBadges.js',
+    './src/clientModules/comparativaColumns.js',
   ],
 
   i18n: {
