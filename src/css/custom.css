@@ -762,14 +762,14 @@ article {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.6rem;
-  height: 1.6rem;
+  width: 1.8rem;
+  height: 1.8rem;
   background: var(--flock-amber-glow);
   border: 1px solid var(--flock-amber);
   border-radius: 2px;
-  font-size: 0.65rem;
+  font-size: 0.9rem;
   font-weight: 800;
-  letter-spacing: 0.04em;
+  letter-spacing: normal;
   color: var(--flock-amber);
   flex-shrink: 0;
 }
