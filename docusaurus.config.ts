@@ -35,6 +35,7 @@ const config: Config = {
     './src/clientModules/collapseAll.js',
     './src/clientModules/instanciaBadges.js',
     './src/clientModules/comparativaColumns.js',
+    './src/clientModules/descriptorAccents.js',
   ],
 
   i18n: {
