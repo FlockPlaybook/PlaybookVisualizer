@@ -68,13 +68,14 @@ export default function Home() {
   return (
     <Layout description="Roles y responsabilidades de Flock Tech por instancia de carrera.">
       <header className={styles.hero}>
-        <div className="container">
+        <div className={`container ${styles.heroInner}`}>
+          <p className={styles.heroKicker}>Flock Tech · Playbook</p>
           <Heading as="h1" className={styles.heroTitle}>
             Playbook Visualizer
           </Heading>
           <p className={styles.heroSubtitle}>
-            Flock Tech — Roles y Responsabilidades. Elegí un rol para explorar
-            su carrera por instancias.
+            Roles y responsabilidades de Flock Tech. Elegí un rol para explorar
+            cómo evoluciona su carrera, instancia por instancia.
           </p>
         </div>
       </header>
