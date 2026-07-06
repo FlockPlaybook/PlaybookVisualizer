@@ -857,3 +857,13 @@ article {
     padding: 0;
   }
 }
+
+/* ---- DESCRIPTOR TABLE: per-dimension line icon (amber) ---- */
+.descriptor-dim-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.55rem;
+  vertical-align: -0.18rem;
+  color: var(--flock-amber);
+  flex-shrink: 0;
+}
