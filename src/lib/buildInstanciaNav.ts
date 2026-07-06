@@ -30,6 +30,8 @@ export interface RoleNav {
   max: number;
   /** Steps ordered 1..max. */
   steps: InstanciaStep[];
+  /** Category stem -> root-relative route of its cross-instancia comparativa. */
+  comparativas: Record<string, string>;
 }
 
 export type InstanciaNav = Record<string, RoleNav>;
@@ -103,8 +105,28 @@ export function buildInstanciaNav(docsDir = path.resolve(process.cwd(), 'docs'))
       label: readRoleLabel(roleDir, roleName),
       max: steps[steps.length - 1].n,
       steps,
+      comparativas: readComparativas(roleDir, roleName),
     };
   }
 
   return nav;
+}
+
+/** Map each existing comparativa (by filename stem) to its root-relative route. */
+function readComparativas(roleDir: string, roleName: string): Record<string, string> {
+  const comparativasDir = path.join(roleDir, 'comparativas');
+  const routes: Record<string, string> = {};
+  let entries: string[];
+  try {
+    entries = fs.readdirSync(comparativasDir);
+  } catch {
+    return routes; // role without comparativas
+  }
+  for (const file of entries) {
+    if (!/\.mdx?$/.test(file)) continue;
+    const stem = file.replace(/\.mdx?$/, '');
+    if (stem === '_category_') continue;
+    routes[stem] = `/${roleName}/comparativas/${stem}`;
+  }
+  return routes;
 }
