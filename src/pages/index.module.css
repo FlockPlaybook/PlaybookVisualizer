@@ -5,30 +5,109 @@
  */
 
 .hero {
-  padding: 4rem 0 2.5rem;
+  position: relative;
+  overflow: hidden;
+  padding: 5.5rem 0 3.25rem;
   border-bottom: 1px solid var(--flock-border);
+  /* Layered amber glow mesh for depth. */
   background:
     radial-gradient(
-      60% 120% at 50% 0%,
+      48% 90% at 12% -5%,
+      var(--flock-amber-glow),
+      transparent 60%
+    ),
+    radial-gradient(
+      42% 80% at 88% 8%,
       var(--flock-amber-glow-soft),
-      transparent 70%
+      transparent 65%
     );
+}
+
+/* Faint geometric dot grid, masked so it fades toward the edges. */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(var(--flock-border) 1px, transparent 1.4px);
+  background-size: 24px 24px;
+  opacity: 0.55;
+  pointer-events: none;
+  -webkit-mask-image: radial-gradient(75% 110% at 30% 0%, #000 35%, transparent 78%);
+  mask-image: radial-gradient(75% 110% at 30% 0%, #000 35%, transparent 78%);
+}
+
+.heroInner {
+  position: relative;
+  z-index: 1;
+}
+
+.heroKicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-family: var(--ifm-heading-font-family);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--flock-amber);
+  margin: 0 0 1.15rem;
+}
+
+.heroKicker::before {
+  content: '';
+  width: 2.1rem;
+  height: 1px;
+  background: currentColor;
 }
 
 .heroTitle {
   font-family: var(--ifm-heading-font-family);
-  font-size: clamp(2.2rem, 5vw, 3.4rem);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.75rem;
+  font-size: clamp(2.4rem, 5.5vw, 3.8rem);
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+  margin-bottom: 0.9rem;
 }
 
 .heroSubtitle {
-  max-width: 44rem;
-  font-size: 1.05rem;
+  max-width: 42rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   color: var(--flock-text-soft);
   margin: 0;
+}
+
+/* Staggered load reveal. */
+@keyframes heroReveal {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.heroKicker {
+  animation: heroReveal 0.55s ease both;
+}
+
+.heroTitle {
+  animation: heroReveal 0.55s ease 0.08s both;
+}
+
+.heroSubtitle {
+  animation: heroReveal 0.55s ease 0.16s both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heroKicker,
+  .heroTitle,
+  .heroSubtitle {
+    animation: none;
+  }
 }
 
 .grid {
