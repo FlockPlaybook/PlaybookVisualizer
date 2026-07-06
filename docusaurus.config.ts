@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import {buildInstanciaNav} from './src/lib/buildInstanciaNav';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -39,6 +40,11 @@ const config: Config = {
   i18n: {
     defaultLocale: 'es',
     locales: ['es'],
+  },
+
+  // Per-role instancia navigation map, consumed client-side by <InstanciaStepper>.
+  customFields: {
+    instanciaNav: buildInstanciaNav(),
   },
 
   presets: [
