@@ -54,6 +54,9 @@ export default function InstanciaStepper(): ReactNode {
   const toHref = (route: string): string =>
     siteConfig.baseUrl.replace(/\/$/, '') + route;
 
+  // Every stem — including 'descriptor' — links to its comparativa when one exists.
+  const comparativaRoute = roleNav.comparativas?.[currentStem];
+
   return (
     <nav
       className={styles.stepper}
@@ -105,6 +108,14 @@ export default function InstanciaStepper(): ReactNode {
           );
         })}
       </ol>
+      {comparativaRoute && (
+        <Link
+          to={toHref(comparativaRoute)}
+          className={styles.compare}
+          title="Compará esta responsabilidad en todas las instancias">
+          Ver comparativa <span aria-hidden="true">→</span>
+        </Link>
+      )}
     </nav>
   );
 }
