@@ -1,0 +1,142 @@
+.wrapper {
+  margin: 1.75rem 0 1rem;
+  border: 1px solid var(--flock-border, #1e2030);
+  border-radius: 8px;
+  background: var(--flock-surface, #13141b);
+  overflow: hidden;
+  transition: border-color 0.25s ease;
+}
+
+.wrapper:hover {
+  border-color: var(--flock-amber-dim, #c88010);
+}
+
+.wrapperOpen {
+  border-color: var(--flock-amber, #e8a020);
+}
+
+/* ---- Toggle header ---- */
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  margin: 0;
+  padding: 0.9rem 1.1rem;
+  border: 0;
+  background: transparent;
+  color: var(--flock-text, #edeadf);
+  font-family: 'Syne', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.toggle:hover {
+  background: var(--flock-amber-glow-soft, rgba(232, 160, 32, 0.06));
+}
+
+.toggle:focus-visible {
+  outline: 2px solid var(--flock-amber, #e8a020);
+  outline-offset: -2px;
+}
+
+/* Small amber tick that reads as a "section" marker. */
+.mark {
+  flex: none;
+  width: 3px;
+  height: 1.05rem;
+  border-radius: 2px;
+  background: var(--flock-amber, #e8a020);
+}
+
+.label {
+  flex: 1 1 auto;
+  line-height: 1.3;
+}
+
+.chevron {
+  flex: none;
+  color: var(--flock-text-soft, #9a98a2);
+  transition: transform 0.3s ease, color 0.2s ease;
+}
+
+.wrapperOpen .chevron {
+  transform: rotate(180deg);
+  color: var(--flock-amber, #e8a020);
+}
+
+/* ---- Collapsible panel (grid 0fr -> 1fr reveal) ---- */
+.panelOuter {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.32s ease;
+}
+
+.wrapperOpen .panelOuter {
+  grid-template-rows: 1fr;
+}
+
+.panelInner {
+  overflow: hidden;
+  min-height: 0;
+  /* Horizontal padding stays; vertical padding is added only when open so the
+     row collapses cleanly to zero height. */
+  padding: 0 1.15rem;
+}
+
+.wrapperOpen .panelInner {
+  padding-top: 0.25rem;
+  padding-bottom: 1.1rem;
+}
+
+.panelInner > :first-child {
+  margin-top: 0;
+}
+
+/* ---- Vertical blocks (authored as markdown inside) ---- */
+/* Each vertical name is a bold paragraph; style it as an amber sub-heading. */
+.panelInner :global(p) {
+  margin: 1rem 0 0.4rem;
+}
+
+.panelInner :global(p) :global(strong) {
+  display: inline-block;
+  font-family: 'Syne', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--flock-amber, #e8a020);
+}
+
+.panelInner :global(p):first-of-type {
+  margin-top: 0.35rem;
+}
+
+.panelInner :global(ul) {
+  margin: 0 0 0.35rem;
+  padding-left: 1.15rem;
+}
+
+.panelInner :global(li) {
+  margin: 0.2rem 0;
+  color: var(--flock-text, #edeadf);
+  line-height: 1.5;
+}
+
+.panelInner :global(li)::marker {
+  color: var(--flock-amber-dim, #c88010);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wrapper,
+  .toggle,
+  .panelOuter,
+  .chevron {
+    transition: none;
+  }
+}
