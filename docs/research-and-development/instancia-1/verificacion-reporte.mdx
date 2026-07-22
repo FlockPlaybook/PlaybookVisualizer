@@ -1,22 +1,53 @@
 ---
 id: rd-instancia-1-verificacion-reporte
-title: Verificación y reporte
-sidebar_label: Verificación y reporte
+title: Validación, métricas y evidencia
+sidebar_label: Validación, métricas y evidencia
 sidebar_position: 5
 ---
 
-# Verificación y reporte
+import VerticalExamples from '@site/src/components/VerticalExamples';
 
-Realiza pruebas de complejidad baja-media y propone mejoras. 
+# Validación, métricas y evidencia
 
-Comprende el grado de especificidad necesaria para el reporte de hallazgos identificados, siguiendo los lineamientos definidos por el área
+Ejecuta pruebas y mediciones de baja complejidad sobre un experimento o prototipo y registra los hallazgos con el grado de detalle definido por el área. Distingue resultados esperados de inesperados y documenta evidencia (datos, capturas, logs) de forma clara y ordenada.
 
 **Ejemplos:**
-- Valida en el equipo de proyecto los casos de prueba seleccionados
-- Considera flujos normales y alternativos en sus pruebas
-- Considera casos borde propios del negocio evidentes y casos borde de datos
-- Selecciona casos de prueba funcionales, de UI/UX
-- Evalúa como es la usabilidad de la aplicación y propone mejoras
-- Utiliza una redacción apropiada (impersonal)
-- Utiliza terminología del negocio para el reporte de incidencias
-- Su reporte es claro y preciso
+
+- Corre las mediciones indicadas y guarda capturas y logs con un nombre claro para cada caso.
+- Separa en la planilla los resultados 'como se esperaba' de los 'raros' para que el referente los revise.
+- Registra el resultado con el formato y el nivel de detalle que pide el área.
+- Verifica que la medición se pueda repetir con los mismos pasos.
+
+<VerticalExamples>
+
+**Soluciones inmersivas y avatares**
+
+- Mide y registra latencia y desincronización en las pruebas guiadas de avatar.
+- Guarda las grabaciones de cada prueba con un nombre claro.
+- Separa los casos que salieron como se esperaba de los raros.
+
+**Computer Vision**
+
+- Ejecuta inferencias y registra falsos positivos y negativos con evidencia.
+- Guarda las imágenes mal clasificadas como respaldo.
+- Registra los resultados con el formato que pide el área.
+
+**Robótica**
+
+- Registra colisiones y aciertos en pruebas predefinidas de navegación.
+- Guarda los logs y el video de cada corrida.
+- Verifica que la medición se pueda repetir con los mismos pasos.
+
+**Sistemas multi-agent**
+
+- Documenta los errores de handoff entre agentes con evidencia.
+- Guarda las trazas de conversación de cada prueba.
+- Separa las fallas esperadas de las inexplicables.
+
+**Desarrollo de productos comerciales**
+
+- Registra defectos y fricciones del producto con evidencia.
+- Adjunta captura y pasos de reproducción en cada reporte.
+- Usa el nivel de detalle que define el área.
+
+</VerticalExamples>

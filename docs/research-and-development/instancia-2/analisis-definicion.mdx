@@ -1,19 +1,53 @@
 ---
 id: rd-instancia-2-analisis-definicion
-title: Análisis y definición
-sidebar_label: Análisis y definición
+title: Formulación de hipótesis y diseño experimental
+sidebar_label: Formulación de hipótesis y diseño experimental
 sidebar_position: 4
 ---
 
-# Análisis y definición
+import VerticalExamples from '@site/src/components/VerticalExamples';
 
-Realiza un análisis profundo y detallado de los requerimientos del proyecto, identificando no solo los flujos críticos, sino también los casos de uso menos evidentes y las posibles áreas de mejora
+# Formulación de hipótesis y diseño experimental
 
-Colabora con los stakeholders para clarificar y validar los requisitos, proponiendo soluciones que cumplan con las necesidades del negocio y los usuarios.
+Comprende la hipótesis de la tarea y colabora en validaciones con criterios simples ya acordados. Distingue el supuesto que se pone a prueba y reconoce cuándo un resultado lo confirma o lo contradice. Detecta inconsistencias básicas en los datos o en la ejecución y las reporta.
 
 **Ejemplos:**
-- Analiza los requisitos funcionales básicos del proyecto para identificar los flujos principales del sistema.
-- Investiga por cuenta propia para comprender el contexto y las necesidades básicas del negocio del sistema, consultando documentación existente y fuentes relevantes.
-- Propone mejoras básicas basadas en el análisis inicial de los requerimientos, centrándose en mejoras simples y directas que puedan optimizar los flujos identificados.
-- Profundiza en la comprensión del negocio del sistema a un nivel más avanzado, consultando fuentes adicionales, asistiendo a sesiones informativas y colaborando con otros equipos funcionales.
-- Participa en reuniones de planificación técnica, ofreciendo ideas y contribuciones para mejorar la calidad técnica y funcional del producto.
+
+- Explica en la daily: 'la hipótesis era que el modelo nuevo baja el error; lo probé y bajó de 12% a 9%'.
+- Detecta que dos corridas dan resultados distintos con la misma entrada y lo reporta como inconsistencia.
+- Marca en la planilla si el resultado confirma o contradice el supuesto.
+- Pregunta cuando el criterio de éxito de la tarea no le queda claro.
+
+<VerticalExamples>
+
+**Soluciones inmersivas y avatares**
+
+- Comprende la hipótesis ('el TTS X baja la latencia bajo la condición Y') y colabora en su chequeo.
+- Marca si la latencia medida confirma o contradice el supuesto.
+- Pregunta cuál es el umbral aceptable de desincronización.
+
+**Computer Vision**
+
+- Comprende la hipótesis sobre el dataset y valida criterios simples ya acordados.
+- Detecta que el modelo acierta menos en un subconjunto y lo reporta.
+- Marca si la precisión supera o no el criterio acordado.
+
+**Robótica**
+
+- Comprende la hipótesis del módulo y valida los resultados esperados.
+- Reporta que dos corridas iguales dan trayectorias distintas.
+- Pregunta cuál es el margen de error aceptable de navegación.
+
+**Sistemas multi-agent**
+
+- Comprende la hipótesis de un agente simple y valida salidas conocidas.
+- Detecta que el agente responde distinto ante la misma entrada y lo reporta.
+- Marca si la salida cumple el criterio de calidad acordado.
+
+**Desarrollo de productos comerciales**
+
+- Comprende la hipótesis de la mejora y valida criterios simples de uso.
+- Verifica si la mejora resuelve la fricción que se buscaba.
+- Pregunta cómo se sabrá si la mejora funcionó.
+
+</VerticalExamples>

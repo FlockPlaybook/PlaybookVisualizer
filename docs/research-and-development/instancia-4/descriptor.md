@@ -14,3 +14,6 @@ sidebar_position: 1
 | **Autonomía** | Requiere de guía al definir métodos y pasos a seguir en nuevas responsabilidades asignadas. |
 | **Impacto de las decisiones** | Las decisiones frecuentemente impactan en sus propios equipos |
 | **Alcance** | Gestiona equipos/responsabilidades (para el caso del rol del contribuidor) pequeños. |
+| **Incertidumbre que maneja** | Problemas abiertos con hipótesis parcialmente definidas. |
+| **Entregables mínimos esperados** | Diseño de PoC, métricas, criterios de éxito, informe de validación y recomendación argumentada. |
+| **Criterios de promoción** | Hacia Instancia 5: lidera una PoC, integra perfiles, conecta evidencia con valor y recomienda próximos pasos. |

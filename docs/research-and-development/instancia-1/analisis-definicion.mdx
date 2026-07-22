@@ -1,23 +1,53 @@
 ---
 id: rd-instancia-1-analisis-definicion
-title: Análisis y definición
-sidebar_label: Análisis y definición
+title: Formulación de hipótesis y diseño experimental
+sidebar_label: Formulación de hipótesis y diseño experimental
 sidebar_position: 4
 ---
 
-# Análisis y definición
+import VerticalExamples from '@site/src/components/VerticalExamples';
 
-Analiza los requerimientos de los proyectos en los que participa, identifica flujos críticos y mejoras, y realiza las pruebas en función de su análisis. 
+# Formulación de hipótesis y diseño experimental
 
-Se interioriza en el negocio del sistema por sus propios medios.
+Ejecuta experimentos previamente definidos y registra los resultados de manera ordenada y reproducible. Identifica el problema o la incertidumbre que el experimento busca reducir, según lo explicado por su referente. Deja registro de pasos, datos de entrada y resultados para que otra persona pueda repetir la prueba.
 
 **Ejemplos:**
-- Comprende parcialmente la solución técnica a desarrollar y puede explicar la implementación a alto nivel.
-- Realiza consultas previamente al inicio del desarrollo en busca de comprender la solución que se implementará
-- Logra contrastar el sistema con los diseños realizados (Disposición de elementos, pixeles, tamaños, tipografía, colores, etc)
-- Releva y documenta el alcance de las pruebas
-- Identifica mejoras y las comunica de forma asertiva
-- Utiliza terminología del negocio para la documentación generada
-- No asume criterios de aceptación/comportamientos esperados, los releva en las personas pertinentes para tomar decisiones de negocio
-- Genera documentación para ordenar la información recolectada.
-- Analiza el feedback de los usuarios finales
+
+- Sigue el protocolo de prueba paso a paso y anota fecha, datos de entrada y resultado de cada corrida.
+- Cuando un número se sale de lo esperado, lo marca en la planilla y lo consulta antes de continuar.
+- Repite la corrida para confirmar que el resultado no fue casual.
+- Guarda la configuración usada para que el experimento sea reproducible.
+
+<VerticalExamples>
+
+**Soluciones inmersivas y avatares**
+
+- Ejecuta el protocolo definido de prueba de lipsync y registra las desincronizaciones.
+- Repite la corrida con la misma frase para confirmar el resultado.
+- Guarda la configuración de voz usada en cada prueba.
+
+**Computer Vision**
+
+- Ejecuta el experimento de inferencia definido y registra falsos positivos y negativos.
+- Anota la versión del modelo y del dataset en cada corrida.
+- Marca las imágenes donde el resultado fue inesperado.
+
+**Robótica**
+
+- Ejecuta la prueba de navegación definida y registra colisiones y aciertos.
+- Repite el recorrido para verificar que el resultado se sostiene.
+- Guarda el mapa y los parámetros usados en la corrida.
+
+**Sistemas multi-agent**
+
+- Ejecuta el flujo de prueba de handoffs definido y registra los errores.
+- Corre el mismo prompt varias veces y anota si la salida varía.
+- Guarda la configuración del agente en cada prueba.
+
+**Desarrollo de productos comerciales**
+
+- Ejecuta el guion de prueba funcional definido y registra fricciones.
+- Repite el caso que falló para confirmar que es reproducible.
+- Anota el entorno y la versión donde ocurrió.
+
+</VerticalExamples>

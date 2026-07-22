@@ -1,22 +1,53 @@
 ---
 id: rd-instancia-2-verificacion-reporte
-title: Verificación y reporte
-sidebar_label: Verificación y reporte
+title: Validación, métricas y evidencia
+sidebar_label: Validación, métricas y evidencia
 sidebar_position: 5
 ---
 
-# Verificación y reporte
+import VerticalExamples from '@site/src/components/VerticalExamples';
 
-Realiza pruebas de complejidad media, diseñando y ejecutando casos de prueba complejos y exhaustivos para identificar posibles errores o fallos.
+# Validación, métricas y evidencia
 
-Propone soluciones y mejoras significativas basadas en los hallazgos de las pruebas realizadas, contribuyendo activamente al proceso de mejora continua del producto.
-
-Produce informes detallados y completos sobre los resultados de las pruebas, utilizando herramientas y métricas específicas para comunicar eficazmente los hallazgos.
+Ejecuta validaciones simples previamente definidas y compara los resultados contra criterios acordados. Detecta inconsistencias, regresiones o diferencias entre corridas y las comunica al equipo. Registra métricas básicas como precisión, latencia, tasa de error o cumplimiento de casos esperados. Puede proponer casos adicionales de prueba, pero todavía no define de manera autónoma la estrategia de validación.
 
 **Ejemplos:**
-- Registra de los resultados de las pruebas realizadas en un formato definido por el equipo de QA o testing.
-- Asiste a reuniones de revisión para discutir los hallazgos de las pruebas realizadas y ofrecer aportes en la identificación de soluciones.
-- Crea pruebas de regresión para validar la estabilidad del sistema ante cambios.
-- Genera de informes detallados con recomendaciones para mejorar la calidad del software
-- Evalua nuevas herramientas o métodos de pruebas que podrían mejorar el proceso de verificación.
-- Describe de manera clara y concisa los problemas encontrados siguiendo una estructura predeterminada
+
+- Ejecuta el set de validación definido y compara los resultados con el umbral acordado.
+- Detecta que dos ejecuciones con la misma entrada producen resultados diferentes y documenta la inconsistencia.
+- Propone agregar un caso de prueba que no estaba contemplado.
+- Registra las métricas básicas (precisión, latencia, tasa de error) de cada corrida.
+
+<VerticalExamples>
+
+**Soluciones inmersivas y avatares**
+
+- Compara la latencia entre motores de TTS/STT y detecta regresiones.
+- Verifica los resultados contra el umbral acordado de latencia.
+- Arma un set de pruebas para correr tras cada cambio.
+
+**Computer Vision**
+
+- Mide precisión y recall básicos y crea pruebas de regresión del dataset.
+- Compara los resultados contra el umbral acordado.
+- Detecta que dos corridas iguales dan métricas distintas.
+
+**Robótica**
+
+- Mide el error de navegación y detecta inconsistencias entre corridas.
+- Compara la trayectoria real contra la esperada.
+- Crea un set de recorridos de regresión.
+
+**Sistemas multi-agent**
+
+- Mide la calidad de las salidas de los agentes y detecta inconsistencias.
+- Compara el resultado contra el criterio acordado.
+- Registra el costo y la latencia por conversación.
+
+**Desarrollo de productos comerciales**
+
+- Mide indicadores de uso básicos y crea pruebas de regresión.
+- Compara el comportamiento contra el criterio esperado.
+- Documenta una inconsistencia entre dos ejecuciones.
+
+</VerticalExamples>

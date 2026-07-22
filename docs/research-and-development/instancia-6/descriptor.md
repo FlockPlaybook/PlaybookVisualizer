@@ -10,7 +10,10 @@ sidebar_position: 1
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | Requiere proponer e investigar tecnologías de muy escasa popularidad o conocimiento en el sector. Requiere analizar y resolver problemas complejos. Crea soluciones en situaciones en que  requieren análisis y evaluación en profundidad de factores variables. Adhiere a la dirección estratégica establecida por la alta dirección y lo demuestra en la definición de objetivos a corto plazo. Interactúa con la alta dirección del  cliente y / o dentro de Flock, e implica asuntos que pueden requerir la aceptación de un enfoque alternativo. Llegar a un consenso. |
-| **Autonomía** | Desarrolla  una visión holística frente a la toma de decisiones.  Actúa de forma independiente al definir métodos y pasos a seguir en nuevas responsabilidades asignadas. |
-| **Impacto de las decisiones** | Las decisiones tienen un gran impacto día a día en su área de responsabilidad |
-| **Alcance** | Gestiona equipos/responsabilidades (si se trata de un rol de contribución individual) medianos-grandes , en un cliente o dentro de Flock. |
+| **Complejidad** | Aborda problemas estratégicos con alta ambigüedad, riesgo e impacto potencial. Define la agenda de investigación de una o varias líneas, anticipa tendencias y determina qué incertidumbres vale la pena explorar. Integra variables tecnológicas, comerciales, organizacionales y de portfolio. |
+| **Autonomía** | Actúa con independencia para definir enfoques, prioridades, marcos de experimentación y criterios de inversión. Propone dirección estratégica y la alinea con la alta dirección, en lugar de limitarse a ejecutar una estrategia previamente establecida. |
+| **Impacto de las decisiones** | Sus decisiones influyen en la inversión, continuidad y posicionamiento de múltiples iniciativas o líneas de I+D. El impacto alcanza al portfolio, las capacidades organizacionales y la estrategia comercial de mediano y largo plazo. |
+| **Alcance** | Lidera o dirige varias iniciativas o líneas de investigación. Influye transversalmente en equipos, productos, áreas comerciales, clientes y partners, aun cuando actúe como contribuidor individual experto. |
+| **Incertidumbre que maneja** | Líneas estratégicas de I+D con alta ambigüedad, impacto y riesgo. |
+| **Entregables mínimos esperados** | Estrategia de línea de investigación, criterios de inversión, roadmap, posicionamiento de portfolio y decisión de escalar, pausar o cerrar. |
+| **Criterios de promoción** | Instancia de referencia: sostiene impacto estratégico, define líneas y criterios de inversión y desarrolla a otros perfiles expertos. |
