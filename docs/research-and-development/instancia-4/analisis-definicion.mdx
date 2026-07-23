@@ -1,32 +1,53 @@
 ---
 id: rd-instancia-4-analisis-definicion
-title: Análisis y definición
-sidebar_label: Análisis y definición
-sidebar_position: 5
+title: Formulación de hipótesis y diseño experimental
+sidebar_label: Formulación de hipótesis y diseño experimental
+sidebar_position: 3
 ---
 
-# Análisis y definición
+import VerticalExamples from '@site/src/components/VerticalExamples';
 
-Realiza análisis detallados y exhaustivos de requerimientos complejos, considerando diferentes perspectivas del negocio y los usuarios finales.
+# Formulación de hipótesis y diseño experimental
 
-Colabora con el equipo para descomponer y detallar requerimientos complejos en elementos pequeños y manejables
-
-Argumenta y defiende sus propuestas y enfoques hacia el Product Owner/cliente, basándose en datos, análisis y un profundo entendimiento del dominio del negocio y las necesidades del usuario final.
+Formula hipótesis acotadas a partir de un problema abierto, diseña el experimento, define métricas y criterios de éxito, e identifica supuestos y riesgos. Produce evidencia que sostiene una conclusión y deriva una recomendación argumentada (Go, No Go o Pivot) sobre el problema investigado.
 
 **Ejemplos:**
-- Contempla casos particulares/especiales del negocio
-- Contempla casos borde del negocio en su totalidad. Ejemplo: mercado, contexto económico/social, productos análogos
-- Empatiza con potenciales usuarios. Piensa en sus frustraciones, expectativas y emociones al usar el sistema.
-- Propone mejoras y vela porque las mismas sean incorporadas
-- Logra/define adecuadamente los requerimientos velando por su correspondiente comunicación al equipo de proyecto
-- Mantiene comunicación fluida con otros actores intervinientes en el proyecto con el objetivo de realizar un análisis abarcativo del sistema
-- Identifica y comunica posibles vulnerabilidades elementales (seguridad de la información, manejo de dinero/stock, etc.). No se requiere ser experto/a en el tema.
-- Identifica, debate y fundamenta hacia el Product Owner/cliente interrogantes en función del negocio y los actores del sistema.
-- Es incisivo/a en las preguntas que realiza
-- Genera espacios de interrogamiento con el Product Owner/cliente de los requerimientos
-- Transmite ocasionalmente sus conocimientos técnicos a quienes necesitan, considerando aquellas cuestiones claves para el aseguramiento de la calidad
-- En base a su conocimiento de la solución técnica identifica fácilmente el origen de los defectos detectados
-- Comprende parcialmente fundamentos de bases de datos
-- Conoce la arquitectura del proyecto, sus integraciones
-- Comprende en detalle la estructura interna de la API
-- Se mantiene atenta/o a solicitar la existencia de los ambientes necesarios para la realización de las pruebas y procura que los mismos estén definidos en las tareas a probar
+
+- Escribe la hipótesis como frase verificable: 'el modelo X supera 90% de precisión con menos de 200 ms de latencia en el dataset Y'.
+- Define de antemano el criterio de éxito y qué resultado llevaría a recomendar No Go.
+- Lista los supuestos (calidad del dataset, hardware) y el riesgo si no se cumplen.
+- Diseña el experimento controlando las variables y deja registrada la recomendación (Go / No Go / Pivot).
+
+<VerticalExamples>
+
+**Soluciones inmersivas y avatares**
+
+- Formula hipótesis de calidad conversacional y define métricas (MOS, latencia, naturalidad) y criterios de éxito.
+- Define qué resultado llevaría a descartar el motor elegido.
+- Lista supuestos (calidad del micrófono, ancho de banda) y sus riesgos.
+
+**Computer Vision**
+
+- Formula hipótesis de precisión y robustez, diseña el benchmark y define umbrales de éxito.
+- Define de antemano el umbral de precisión que habilita el Go.
+- Lista los supuestos del dataset y el riesgo si no se cumplen.
+
+**Robótica**
+
+- Formula hipótesis de autonomía y localización, diseña experimentos y define métricas (tasa de éxito, error de pose).
+- Define qué tasa de fallos haría recomendar No Go.
+- Lista los supuestos del entorno y sus riesgos.
+
+**Sistemas multi-agent**
+
+- Formula hipótesis de orquestación y guardrails y define métricas (calidad, costo, latencia, fraude evitado).
+- Define el criterio de éxito de la trazabilidad del flujo.
+- Lista los supuestos de costo por tarea y su riesgo a escala.
+
+**Desarrollo de productos comerciales**
+
+- Diseña la validación problema-solución con métricas de adopción y criterios de MVP.
+- Define qué adopción mínima justifica seguir invirtiendo.
+- Lista los supuestos de negocio y su riesgo.
+
+</VerticalExamples>

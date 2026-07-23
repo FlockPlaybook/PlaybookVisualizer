@@ -1,39 +1,58 @@
 ---
 id: rd-instancia-2-diseno-implementacion
-title: Diseño e implementación de soluciones
-sidebar_label: Diseño e implementación de soluciones
+title: Investigación tecnológica y construcción de soluciones
+sidebar_label: Investigación tecnológica y construcción de soluciones
 sidebar_position: 2
 ---
 
-# Diseño e implementación de soluciones
+import VerticalExamples from '@site/src/components/VerticalExamples';
 
-Forma parte en la evaluación e investigación de nuevos protocolos, lenguajes de desarrollo, frameworks y tecnologías, teniendo un entendimiento inicial de las mismas.
+# Investigación tecnológica y construcción de soluciones
 
-Realiza un análisis de requerimientos de baja complejidad, enfocado en lo implementativo. 
+**Investigación tecnológica:** Releva alternativas conocidas para un problema técnico simple, compara opciones según criterios provistos y registra ventajas y desventajas iniciales.
 
-Es responsable de implementar funcionalidades no críticas ya diseñadas, pudiendo requerir asistencia, guía y seguimiento.  
+**Construcción de soluciones:** Integra módulos o servicios siguiendo una arquitectura definida (por ejemplo TTS/STT o un pipeline existente) y mide indicadores básicos como latencia o errores. Construye una parte de una demo o PoC con autonomía acotada. Requiere acompañamiento puntual.
 
-Vela por las funcionalidades del sistema y las tecnologías de su proyecto que requieran a una comprensión básica/inicial.
-
-Comprende y es consciente de las funcionalidades a desarrollar en el proyecto en el que se desempeña.
-
-Crea interfaces de mediana complejidad para los productos tecnológicos desarrollados. Requiere menor acompañamiento del Líder de Diseño, logrando cumplir las tareas en tiempo y forma.
+> **IA:** Aplica herramientas de IA a tareas acotadas de su trabajo (generar casos de prueba, resumir fuentes, prototipar) y valida sus salidas contra criterios conocidos. Integra componentes de IA ya definidos (un modelo, una API) siguiendo la arquitectura dada y detecta cuándo el resultado es inconsistente o inventado.
 
 **Ejemplos:**
-*- Implementa efectivamente soluciones de complejidad baja, como por ejemplo:
-* Componentes estáticos o sin lógica
-* Soluciones no relacionadas al core de negocio de la aplicación
-* Agregaciones a una solución ya realizada
-* Bug Fixing no urgente o simple
-* Front/Mobile: Formularios, listados, maquetaciones
-* Back: Login, ABMs
-- Consulta las soluciones planteadas por sus referentes para entenderlas
-- Utiliza el lenguaje o framework en sus casos más básicos o comunes, consultando dudas generales sobre su funcionamiento con su referente
-- Intenta resolver problemas/impedimentos inicialmente con autonomia entendiendo el tiempo optimo para notificar a su referente en caso de no poder solucionarlo
-- Usa y comprende utilidades globales del sistema como:
-* CSS global
-* Variables de entorno
-* Patrones basicos de desarrollo
-* Librerias comunes a la mayoria de los proyectos
-* Testeo y Armado de Request
--Trabaja con styleguides y componentes provistos, creando diseños armónicos respetando las decisiones pautadas.
+
+- Conecta un servicio de TTS al prototipo siguiendo el diagrama dado y anota que la latencia bajó de 800 a 500 ms al cambiar un parámetro.
+- Completa una tabla 'opción A / opción B' marcando cuál es más simple de integrar y por qué.
+- Al cargar el dataset nota que falta etiqueta en el 10% de los casos y lo avisa.
+- Reproduce un problema de la integración y documenta los pasos exactos para reproducirlo.
+- Genera casos de prueba con un LLM, los revisa uno por uno y descarta los que no aplican al caso.
+
+<VerticalExamples>
+
+**Soluciones inmersivas y avatares**
+
+- Integra TTS, STT o lipsync siguiendo una arquitectura definida y mide latencia básica.
+- Cambia el motor de voz por otro conocido y compara cuál suena más natural.
+- Construye la parte de la demo que conecta el audio con la animación.
+
+**Computer Vision**
+
+- Prueba modelos o pipelines conocidos y detecta inconsistencias del dataset.
+- Compara dos modelos preentrenados sobre el mismo set y anota cuál acierta más.
+- Ajusta el umbral de detección y registra cómo cambian los falsos positivos.
+
+**Robótica**
+
+- Integra sensores o módulos simples siguiendo una solución definida.
+- Prueba dos configuraciones de sensor conocidas y compara la calidad de lectura.
+- Construye el módulo de teleoperación de la demo siguiendo el diseño dado.
+
+**Sistemas multi-agent**
+
+- Configura herramientas, prompts o agentes simples y valida resultados conocidos.
+- Compara dos prompts para la misma tarea y registra cuál da mejor resultado.
+- Integra una herramienta externa al agente siguiendo la arquitectura definida.
+
+**Desarrollo de productos comerciales**
+
+- Implementa una mejora acotada que responde a una necesidad definida.
+- Compara dos formas de resolver una pantalla y elige la más simple de mantener.
+- Detecta que el dato que muestra el producto no coincide con el origen y lo reporta.
+
+</VerticalExamples>

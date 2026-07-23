@@ -1,18 +1,53 @@
 ---
 id: rd-instancia-3-analisis-definicion
-title: Análisis y definición
-sidebar_label: Análisis y definición
-sidebar_position: 4
+title: Formulación de hipótesis y diseño experimental
+sidebar_label: Formulación de hipótesis y diseño experimental
+sidebar_position: 3
 ---
 
-# Análisis y definición
+import VerticalExamples from '@site/src/components/VerticalExamples';
 
-Identifica, debate y fundamenta hacia el Product Owner/cliente interrogantes, que agreguen valor al proyecto, en función del negocio y los actores del sistema.
+# Formulación de hipótesis y diseño experimental
+
+Propone casos de prueba, variantes experimentales y comparaciones básicas para reducir una incertidumbre acotada. Formula preguntas de investigación, identifica supuestos y sugiere qué medir para responderlas. Compara alternativas con criterios definidos y documenta conclusiones simples con sus riesgos.
 
 **Ejemplos:**
-- Mantiene comunicación fluida con otros actores intervinientes en el proyecto con el objetivo de realizar un análisis abarcativo del sistema
-- Genera espacios de interrogamiento con el Product Owner/cliente de los requerimientos
-- Transmite ocasionalmente sus conocimientos técnicos a quienes necesitan, considerando aquellas cuestiones claves para el aseguramiento de la calidad
-- Comprende parcialmente fundamentos de bases de datos
-- Comprende en detalle la estructura interna de la API
-- Se mantiene atenta/o a solicitar la existencia de los ambientes necesarios para la realización de las pruebas y procura que los mismos estén definidos en las tareas a probar
+
+- Propone probar también con audio ruidoso y en otro idioma, porque cree que ahí la calidad puede caer.
+- Sugiere qué métrica mirar para decidir entre dos opciones y explica por qué esa y no otra.
+- Arma una variante del experimento cambiando un solo factor para aislar su efecto.
+- Documenta la conclusión y el riesgo principal de la comparación.
+
+<VerticalExamples>
+
+**Soluciones inmersivas y avatares**
+
+- Propone variantes de prueba (voz, idioma, ruido) y compara su efecto en la experiencia.
+- Sugiere medir naturalidad además de latencia y explica por qué.
+- Documenta el riesgo de que la calidad caiga con ruido de fondo.
+
+**Computer Vision**
+
+- Propone casos de prueba y comparaciones básicas entre modelos.
+- Sugiere probar con imágenes nocturnas porque sospecha que ahí falla.
+- Aísla un solo factor (resolución) para ver su efecto real.
+
+**Robótica**
+
+- Propone comparaciones entre simulación y robot físico con criterios definidos.
+- Sugiere qué métrica define mejor el éxito de la navegación.
+- Documenta la brecha detectada y su riesgo principal.
+
+**Sistemas multi-agent**
+
+- Propone scoring de coordinación y trazabilidad y compara configuraciones.
+- Sugiere probar con entradas ambiguas para ver si el agente se pierde.
+- Cambia un solo parámetro del prompt para aislar su efecto.
+
+**Desarrollo de productos comerciales**
+
+- Propone pruebas A/B simples y comparaciones basadas en evidencia.
+- Sugiere qué métrica de uso mostraría que la mejora sirve.
+- Documenta la conclusión y el riesgo de la comparación.
+
+</VerticalExamples>

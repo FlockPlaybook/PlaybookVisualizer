@@ -1,38 +1,58 @@
 ---
 id: rd-instancia-3-diseno-implementacion
-title: Diseño e implementación de soluciones
-sidebar_label: Diseño e implementación de soluciones
+title: Investigación tecnológica y construcción de soluciones
+sidebar_label: Investigación tecnológica y construcción de soluciones
 sidebar_position: 2
 ---
 
-# Diseño e implementación de soluciones
+import VerticalExamples from '@site/src/components/VerticalExamples';
 
-Colabora y forma parte en la evaluación e investigación de nuevos protocolos, lenguajes de desarrollo, frameworks y tecnologías.
+# Investigación tecnológica y construcción de soluciones
 
-Tiene la capacidad de investigar, probar, analizar y llegar a conclusiones incipientes sobre sus investigaciones.
+**Investigación tecnológica:** Investiga el estado del arte de alternativas, revisa fuentes, compara opciones mediante benchmark básico y evalúa madurez tecnológica, dependencias y costos. Produce una recomendación argumentada inicial sobre qué conviene adoptar o descartar.
 
-Participa en la definición de nuevas tecnologías analizando junto a su equipo de trabajo ventajas y desventajas de las mismas.
+**Construcción de soluciones:** Construye demos funcionales de forma autónoma y documenta las decisiones técnicas tomadas.
 
-Realiza un análisis de requerimientos de media complejidad enfocadonse en la implementación y en el diseño. 
-
-Cuestiona y debate los diseños con los referentes del proyecto con el fin de entender las decisiones tomadas, argumentando su opinión y justificando con datos. 
-
-Comprende las funcionalidades del equipo dentro su tecnología, aportando su visión y comunicando los errores que pueda identificar.
-
-Crea interfaces para los productos tecnológicos desarrollados, con independencia, velando por la calidad acorde a los estándares y buenas prácticas.
+> **IA:** Compara alternativas de IA (modelos, APIs, técnicas de prompting) según calidad, costo, latencia y madurez, y evalúa si conviene incorporarlas a la solución. Usa IA para acelerar su propia investigación y prototipado, explicitando qué parte del resultado fue asistida y cómo la verificó.
 
 **Ejemplos:**
-- Implementa efectivamente soluciones de complejidad media, como por ejemplo:
-- Funcionalidades y componentes parte del core de negocio de la aplicación
-- Bug Fixing urgente y no trivial en producción
-- Implementaciones que requieren de investigación previa
-- Front/Mobile: Interacción con CMSs u otros servicios externos
-- Interacción con OCRs
-- Animaciones de dificultad intermedia
-- Backend: Endpoints complejos (websockets, polling, requests anidadas), Lambdas
-- Busca comprender las decisiones técnicas y de arquitectura tomadas por el referente y da feedback concreto al respecto de posibles mejoras
-- Es consciente de las tareas del resto del equipo de su tecnología, haciendo propuestas y recomendaciones cuando lo ve necesario
-- Contempla correctamente todos los fail states, incluyendo errores criticos ( 500, excepciones en runtime, etc ) en el flujo de la aplicacion
-- Utiliza el framework en que se especializa considerando la mejor herramienta del mismo para cada caso de uso
-- Identifica criterios de aceptación en los issues y cards del sprint en su tecnologia de expertise y los estima ( va para metodologias )
-- Tiene un manejo correcto de los recursos visuales y de comunicación, logrando que los usuarios cumplan sus expectativas en el producto.
+
+- Lee cuatro papers o posts del problema y resume en media carilla cuál es el enfoque dominante hoy.
+- Corre las mismas entradas en tres modelos y arma un cuadro con precisión y tiempo de respuesta de cada uno.
+- Levanta una demo que un comercial puede mostrar sin ayuda técnica.
+- Estima el costo mensual de cada alternativa al volumen esperado y lo suma a la comparación.
+- Compara dos modelos de lenguaje por costo, latencia y calidad de respuesta, y recomienda cuál conviene.
+
+<VerticalExamples>
+
+**Soluciones inmersivas y avatares**
+
+- Compara motores, SDKs o alternativas 2D/3D según calidad, costo y compatibilidad.
+- Releva qué usan hoy los referentes del mercado en avatares conversacionales.
+- Estima el costo por minuto de conversación de cada motor evaluado.
+
+**Computer Vision**
+
+- Compara modelos, auto-labeling o generación de datos sintéticos en un benchmark básico.
+- Releva el estado del arte en detección para el caso y resume los enfoques vigentes.
+- Evalúa la madurez y las dependencias de una librería antes de proponerla.
+
+**Robótica**
+
+- Compara simulación y robot físico e identifica las brechas relevantes.
+- Releva qué plataformas de navegación existen y cuál se adapta al caso.
+- Arma una demo funcional de navegación en un entorno acotado.
+
+**Sistemas multi-agent**
+
+- Evalúa coordinación, calidad, trazabilidad, costo y latencia mediante scoring.
+- Releva frameworks de orquestación de agentes y compara sus capacidades.
+- Arma una demo funcional de un flujo multi-agent de punta a punta.
+
+**Desarrollo de productos comerciales**
+
+- Analiza feedback, compara soluciones y propone ajustes basados en evidencia.
+- Releva cómo resuelven el mismo problema productos análogos del mercado.
+- Construye una demo del ajuste propuesto para validarlo con usuarios.
+
+</VerticalExamples>

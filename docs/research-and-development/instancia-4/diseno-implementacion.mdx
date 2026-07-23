@@ -1,35 +1,58 @@
 ---
 id: rd-instancia-4-diseno-implementacion
-title: Diseño e implementación de soluciones
-sidebar_label: Diseño e implementación de soluciones
+title: Investigación tecnológica y construcción de soluciones
+sidebar_label: Investigación tecnológica y construcción de soluciones
 sidebar_position: 2
 ---
 
-# Diseño e implementación de soluciones
+import VerticalExamples from '@site/src/components/VerticalExamples';
 
-Colabora y propone aspectos a evaluar en  la investigación de nuevos protocolos, lenguajes de desarrollo, frameworks y tecnologías.
+# Investigación tecnológica y construcción de soluciones
 
-Tiene la capacidad de investigar, probar, analizar y llegar a conclusiones parciales justificadas sobre sus investigaciones.
+**Investigación tecnológica:** Diseña y conduce comparaciones rigurosas (estado del arte, benchmark, madurez, riesgos, dependencias, costos y barreras de adopción) y produce una recomendación argumentada de adopción.
 
-Propone recomendaciones fundamentadas sobre la adopción o no de nuevas tecnologías, considerando los objetivos del proyecto y las necesidades a largo plazo.
+**Construcción de soluciones:** Diseña la arquitectura de una PoC, prototipa la solución y prepara su transferencia a producto o delivery, asegurando calidad y reproducibilidad.
 
-Diseña soluciones técnicas y arquitectónicas medianamente complejas, proponiendo diseños innovadores que cumplan con los objetivos del proyecto.
-
-Contribuye a la toma de decisiones informadas, justificando recomendaciones y cambios propuestos en el diseño.
-
-Identifica y comunica proactivamente errores potenciales o áreas de mejora en las funcionalidades del equipo, proponiendo soluciones prácticas y eficaces.
-
-Asume la responsabilidad de la calidad del código y de las soluciones implementadas, asegurando que estén alineadas con los estándares establecidos y contribuyendo a su mejora continua.
+> **IA:** Formula hipótesis sobre el aporte de la IA a un problema, diseña el experimento y define métricas y criterios de éxito, contemplando riesgos propios de la IA (alucinaciones, sesgo, privacidad de los datos, costo por inferencia). Recomienda de forma argumentada si la IA debe incorporarse a la solución o si conviene una alternativa determinística.
 
 **Ejemplos:**
-- Implementa efectivamente y de manera recurrente soluciones de complejidad alta como:
-- Mobile: Integración con bluetooth/GPS/APIs del dispositivo, push notifications, Deep Linking
-- Backend: Push notifications
-- Flujos de pagos
-- Flujos de compra
-- Desarrollar interfaces altamente complejas para el producto, con un enfoque en la usabilidad, el rendimiento y la compatibilidad con múltiples dispositivos.
-- Presa argumentos sólidos respaldados por pruebas y análisis para justificar cambios en el diseño o la arquitectura propuestos.
-- Diseña la arquitectura técnica para una nueva característica del software, considerando aspectos de escalabilidad, rendimiento y mantenimiento.
-- Presenta un informe detallado y persuasivo que incluya análisis técnico, costos, beneficios y recomendaciones para la alta dirección.
-- Diseña los prototipos considerando los múltiples recursos (fotografía, contenido, ilustración, motion) logrando buena fidelidad del prototipo final.
-- Crea nuevos styleguides de acuerdo a los templates.
+
+- Construye una matriz de decisión que pondera costo, madurez, comunidad y riesgo de lock-in, y deja explícito por qué recomienda una opción.
+- Entrega la PoC con diagrama de arquitectura y un README que permite a otra persona reproducirla en menos de un día.
+- Lista las barreras de adopción (licencias, datos sensibles, costo a escala) con un plan de mitigación para cada una.
+- Documenta el handoff: qué falta para que delivery o producto tomen la PoC sin su intervención.
+- Define la tasa de alucinación aceptable y el costo por inferencia como criterios de éxito antes de probar el modelo.
+
+<VerticalExamples>
+
+**Soluciones inmersivas y avatares**
+
+- Diseña experimentos de experiencia conversacional (ruido, multilenguaje, presencia, continuidad visual).
+- Arma la matriz de decisión de motores ponderando calidad, costo y lock-in.
+- Documenta cómo delivery tomaría el avatar sin depender de I+D.
+
+**Computer Vision**
+
+- Diseña benchmarks y valida precisión, latencia, robustez y costo; define la arquitectura de la PoC.
+- Evalúa barreras de adopción (datos sensibles, costo de inferencia a escala).
+- Prepara el handoff del modelo a producto con su documentación de uso.
+
+**Robótica**
+
+- Diseña experimentos de navegación, localización, percepción o autonomía y prototipa la solución.
+- Compara plataformas robóticas ponderando costo, soporte y madurez.
+- Define la arquitectura de la PoC incluyendo edge y conectividad.
+
+**Sistemas multi-agent**
+
+- Diseña experimentos de orquestación, memoria, guardrails, presencia humana o prevención de fraude.
+- Compara arquitecturas de agentes ponderando costo por tarea y trazabilidad.
+- Documenta la arquitectura de la PoC para que otro equipo la reproduzca.
+
+**Desarrollo de productos comerciales**
+
+- Diseña una validación problema-solución, métricas de adopción y criterios de MVP.
+- Evalúa si la solución escala a otros clientes o es a medida.
+- Prepara la transferencia del prototipo al equipo de producto.
+
+</VerticalExamples>

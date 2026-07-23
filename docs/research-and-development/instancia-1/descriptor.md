@@ -10,7 +10,10 @@ sidebar_position: 1
 
 | Dimensión | Descripción |
 |---|---|
-| **Complejidad** | creciente. Busca apoyo/válida soluciones con pares de mayor seniority antes de presentar la solución a su referente.  Requiere resolver problemas rutinarios usando la experiencia de casos anteriores, guías y pautas generales.  Interactúa dentro de su propio equipo y con su referente directo. |
-| **Autonomía** | Requiere instrucciones detalladas/moderadas sobre las tareas diarias e instrucciones detalladas para nuevas tareas |
-| **Impacto de las decisiones** | Las decisiones impactan en su propio trabajo |
-| **Alcance** | de trabajo predeterminado y delimitado. |
+| **Complejidad** | Ejecuta tareas previamente definidas, de baja complejidad y dentro de una investigación ya orientada. Resuelve situaciones conocidas aplicando instrucciones, guías y ejemplos anteriores. Identifica desvíos, pero requiere apoyo para analizarlos y decidir cómo continuar. |
+| **Autonomía** | Requiere instrucciones detalladas para tareas nuevas y seguimiento frecuente durante la ejecución. Consulta antes de modificar el procedimiento, los criterios o el alcance acordado. |
+| **Impacto de las decisiones** | Sus decisiones afectan principalmente la ejecución y calidad de su propia tarea. Las conclusiones y cambios relevantes son revisados por un referente. |
+| **Alcance** | Contribución individual sobre una tarea delimitada dentro de un experimento, prototipo o iniciativa de I+D. |
+| **Incertidumbre que maneja** | Tareas definidas dentro de una investigación ya orientada. |
+| **Entregables mínimos esperados** | Registro de pruebas, resultados reproducibles y documentación técnica básica. |
+| **Criterios de promoción** | Hacia Instancia 2: registra resultados confiables, comprende el objetivo y ejecuta tareas simples con menor acompañamiento. |
