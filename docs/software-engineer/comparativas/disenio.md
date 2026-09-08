@@ -12,9 +12,7 @@ sidebar_position: 1
 
 ## Instancia 1
 
-Es responsable de desarrollar sus conocimientos a través de las capacitaciones que componen su formación inicial y de sus referentes en su primer proyecto. Su objetivo es aprender, analizar y desarrollar tareas de baja complejidad.
-
-> **IA:** Comienza a explorar herramientas de asistencia basadas en IA como apoyo en su aprendizaje inicial.
+Es responsable de desarrollar sus conocimientos a través de las capacitaciones que componen su formación inicial y de sus referentes en su primer proyecto. Su objetivo es aprender, analizar y desarrollar tareas de baja complejidad. Comienza a explorar herramientas de asistencia basadas en IA como apoyo en su aprendizaje inicial.
 
 **Ejemplos:**
 - Asistir a sesiones de formación sobre metodologías ágiles, como Scrum o Kanban.
@@ -34,9 +32,7 @@ Es responsable de desarrollar sus conocimientos a través de las capacitaciones 
 
 ## Instancia 2
 
-Realiza un análisis de requerimientos de baja complejidad, enfocado en lo implementativo. Es responsable de implementar funcionalidades no críticas ya diseñadas, pudiendo requerir asistencia, guía y seguimiento. Vela por las funcionalidades del sistema y las tecnologías de su proyecto que requieran una comprensión básica/inicial.
-
-> **IA:** Comienza a familiarizarse con herramientas de asistencia basadas en IA para apoyar su aprendizaje, respetando las políticas del proyecto.
+Realiza un análisis de requerimientos de baja complejidad, enfocado en lo implementativo. Es responsable de implementar funcionalidades no críticas ya diseñadas, pudiendo requerir asistencia, guía y seguimiento. Vela por las funcionalidades del sistema y las tecnologías de su proyecto que requieran una comprensión básica/inicial. Comienza a familiarizarse con herramientas de asistencia basadas en IA para apoyar su aprendizaje, respetando las políticas del proyecto.
 
 **Ejemplos:**
 - Implementa soluciones de complejidad baja: componentes estáticos, bug fixing simple, formularios, listados, ABMs de datos maestros. Operaciones sincrónicas simples, sin concurrencia, sin integraciones externas, flujos lineales sin ramificaciones de lógica de negocio.
@@ -51,9 +47,7 @@ Realiza un análisis de requerimientos de baja complejidad, enfocado en lo imple
 
 ## Instancia 3
 
-Realiza un análisis de requerimientos de baja/media complejidad enfocado principalmente en la implementación. Requiere guía y seguimiento para diseñar e implementar una funcionalidad completa de mayor complejidad. Comienza a entender el negocio del cliente.
-
-> **IA:** Está familiarizado con herramientas de asistencia basadas en IA para apoyar su aprendizaje y resolución de problemas simples.
+Realiza un análisis de requerimientos de baja/media complejidad enfocado principalmente en la implementación. Requiere guía y seguimiento para diseñar e implementar una funcionalidad completa de mayor complejidad. Comienza a entender el negocio del cliente. Está familiarizado con herramientas de asistencia basadas en IA para apoyar su aprendizaje y resolución de problemas simples.
 
 **Ejemplos:**
 - Implementa soluciones de complejidad media: login/registro completo, paginación, animaciones, integraciones simples, flujos de login custom. Manejo de estado con múltiples fuentes, flujos multi-paso con validaciones, interacción front-back con contratos de API.
@@ -69,9 +63,7 @@ Realiza un análisis de requerimientos de baja/media complejidad enfocado princi
 
 ## Instancia 4
 
-Realiza un análisis de requerimientos de media/alta complejidad enfocándose en la implementación y en el diseño. Diseña e implementa funcionalidades completas de alta criticidad con seguimiento de un referente. Cuestiona y debate los diseños argumentando su opinión y justificando con datos.
-
-> **IA:** Utiliza herramientas de IA de forma consciente para mejorar su productividad, evaluando críticamente sus resultados y validándolos antes de aplicarlos.
+Realiza un análisis de requerimientos de media/alta complejidad enfocándose en la implementación y en el diseño. Diseña e implementa funcionalidades completas de alta criticidad con seguimiento de un referente. Cuestiona y debate los diseños argumentando su opinión y justificando con datos. Utiliza herramientas de IA de forma consciente para mejorar su productividad, evaluando críticamente sus resultados y validándolos antes de aplicarlos.
 
 **Ejemplos:**
 - Implementa soluciones de complejidad media/alta: funcionalidades del core de negocio, bug fixing urgente no trivial, websockets, Lambdas. Procesamiento asincrónico, concurrencia, seguridad en auth, optimización de queries con volúmenes crecientes.
@@ -86,9 +78,7 @@ Realiza un análisis de requerimientos de media/alta complejidad enfocándose en
 
 ## Instancia 5
 
-Realiza un análisis de requerimientos de alta complejidad enfocándose en la implementación y en el diseño, y da soporte a integrantes del equipo. Cuestiona y debate los diseños con los referentes de las otras tecnologías del proyecto para tomar la mejor decisión para el contexto.
-
-> **IA:** Promueve el uso responsable de herramientas de IA dentro del equipo, integrándolas en los procesos de desarrollo.
+Realiza un análisis de requerimientos de alta complejidad enfocándose en la implementación y en el diseño, y da soporte a integrantes del equipo. Cuestiona y debate los diseños con los referentes de las otras tecnologías del proyecto para tomar la mejor decisión para el contexto. Promueve el uso responsable de herramientas de IA dentro del equipo, integrándolas en los procesos de desarrollo.
 
 **Ejemplos:**
 - Implementa recurrentemente soluciones de alta complejidad: integración bluetooth/GPS, push notifications, flujos de pagos. Comunicación en tiempo real, concurrencia a escala, performance con constraints de latencia, flujos transaccionales con rollback y consistencia eventual.
@@ -104,9 +94,7 @@ Realiza un análisis de requerimientos de alta complejidad enfocándose en la im
 
 ## Instancia 6
 
-Realiza análisis de requerimientos de alta complejidad, entiende las necesidades del negocio/cliente y alinea las soluciones a esas necesidades. Como referente presenta los diseños de soluciones para problemáticas de alta complejidad y criticidad. Toma decisiones comprendiendo el contexto del proyecto en su totalidad.
-
-> **IA:** Promueve el uso responsable de herramientas de IA dentro de Flock o su área de afinidad.
+Realiza análisis de requerimientos de alta complejidad, entiende las necesidades del negocio/cliente y alinea las soluciones a esas necesidades. Como referente presenta los diseños de soluciones para problemáticas de alta complejidad y criticidad. Toma decisiones comprendiendo el contexto del proyecto en su totalidad. Promueve el uso responsable de herramientas de IA dentro de Flock o su área de afinidad.
 
 **Ejemplos:**
 - Lidera Plan de Producción (trackeo de errores, branching model, rollback), apoya en infraestructura, participa en estrategia de microservicios. Diseño con alta disponibilidad, tolerancia a fallos, degradación graceful, observabilidad end-to-end y decisiones de escalabilidad.
@@ -119,9 +107,7 @@ Realiza análisis de requerimientos de alta complejidad, entiende las necesidade
 
 ## Instancia 7
 
-Es responsable de la dirección técnica y estado de los proyectos en donde participa, aportando su visión incluso por fuera de su área de especialización. Detecta problemas y fallas futuras potenciales, elabora y ejecuta planes de acción. Se apoya en el arquitecto y referentes de gestión para la toma de decisiones.
-
-> **IA:** Lidera la adopción estratégica de herramientas de IA en el área, investigando nuevas herramientas, evaluando su impacto técnico y de negocio.
+Es responsable de la dirección técnica y estado de los proyectos en donde participa, aportando su visión incluso por fuera de su área de especialización. Detecta problemas y fallas futuras potenciales, elabora y ejecuta planes de acción. Se apoya en el arquitecto y referentes de gestión para la toma de decisiones. Lidera la adopción estratégica de herramientas de IA en el área, investigando nuevas herramientas, evaluando su impacto técnico y de negocio.
 
 **Ejemplos:**
 - Diseña y lidera la arquitectura técnica de proyectos críticos, anticipando riesgos antes de que impacten.

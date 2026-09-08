@@ -12,9 +12,7 @@ sidebar_position: 2
 
 ## Instancia 1
 
-Coordina tareas básicas del equipo. Utiliza herramientas de gestión simples. Contribuye al seguimiento del progreso del proyecto.
-
-> **IA:** Integra herramientas de IA en su gestión diaria con criterio — planificación, reportes y seguimiento —, evaluando críticamente los resultados antes de utilizarlos.
+Coordina tareas básicas del equipo. Utiliza herramientas de gestión simples. Contribuye al seguimiento del progreso del proyecto. Integra herramientas de IA en su gestión diaria con criterio — planificación, reportes y seguimiento —, evaluando críticamente los resultados antes de utilizarlos.
 
 **Ejemplos:**
 - Coordinar el backlog del sprint con el equipo de forma colaborativa.
@@ -28,9 +26,7 @@ Coordina tareas básicas del equipo. Utiliza herramientas de gestión simples. C
 
 ## Instancia 2
 
-Colabora en la planificación y priorización de funcionalidades. Gestiona carga de trabajo y capacidad del equipo. Identifica riesgos como requerimientos mal definidos.
-
-> **IA:** Usa herramientas de IA con criterio para eficientizar su gestión de proyectos y comienza a compartir su uso con el equipo.
+Colabora en la planificación y priorización de funcionalidades. Gestiona carga de trabajo y capacidad del equipo. Identifica riesgos como requerimientos mal definidos. Usa herramientas de IA con criterio para eficientizar su gestión de proyectos y comienza a compartir su uso con el equipo.
 
 **Ejemplos:**
 - Planificar sprints considerando la capacidad real del equipo.
@@ -44,9 +40,7 @@ Colabora en la planificación y priorización de funcionalidades. Gestiona carga
 
 ## Instancia 3
 
-Lidera la gestión de proyectos complejos. Mejora procesos de planificación y estimación. Identifica y gestiona riesgos de alta complejidad. Identifica oportunidades comerciales básicas.
-
-> **IA:** Define y comunica al equipo buenas prácticas de uso de IA — qué herramientas utilizar, cómo validar los resultados y cuándo no confiar en ellas.
+Lidera la gestión de proyectos complejos. Mejora procesos de planificación y estimación. Identifica y gestiona riesgos de alta complejidad. Identifica oportunidades comerciales básicas. Define y comunica al equipo buenas prácticas de uso de IA — qué herramientas utilizar, cómo validar los resultados y cuándo no confiar en ellas.
 
 **Ejemplos:**
 - Liderar la gestión de proyectos complejos de forma autónoma.
@@ -60,9 +54,7 @@ Lidera la gestión de proyectos complejos. Mejora procesos de planificación y e
 
 ## Instancia 4
 
-Elabora y lidera planificaciones estratégicas. Gestiona proyectos críticos y de alta complejidad. Busca identificar y concretar oportunidades comerciales.
-
-> **IA:** Impulsa y capacita al equipo en el uso responsable y eficiente de herramientas de IA, integrándolas en los procesos de trabajo del proyecto.
+Elabora y lidera planificaciones estratégicas. Gestiona proyectos críticos y de alta complejidad. Busca identificar y concretar oportunidades comerciales. Impulsa y capacita al equipo en el uso responsable y eficiente de herramientas de IA, integrándolas en los procesos de trabajo del proyecto.
 
 **Ejemplos:**
 - Elaborar planificaciones estratégicas alineadas con los objetivos del cliente.
@@ -76,9 +68,7 @@ Elabora y lidera planificaciones estratégicas. Gestiona proyectos críticos y d
 
 ## Instancia 5
 
-Lidera la gestión de proyectos críticos de máxima complejidad. Referente en gestión de riesgos y dependencias. Identifica oportunidades comerciales proactivamente.
-
-> **IA:** Impulsa, capacita e instaura el uso de IA a nivel área — definiendo estándares, políticas de validación, seguridad y governance, y midiendo su impacto en los proyectos.
+Lidera la gestión de proyectos críticos de máxima complejidad. Referente en gestión de riesgos y dependencias. Identifica oportunidades comerciales proactivamente. Impulsa, capacita e instaura el uso de IA a nivel área — definiendo estándares, políticas de validación, seguridad y governance, y midiendo su impacto en los proyectos.
 
 **Ejemplos:**
 - Liderar la gestión de proyectos de máxima complejidad y criticidad.
@@ -92,9 +82,7 @@ Lidera la gestión de proyectos críticos de máxima complejidad. Referente en g
 
 ## Instancia 6
 
-Asume rol estratégico en la planificación a largo plazo de 2 o más proyectos. Define estrategias de gestión de proyectos. Logra expansión del negocio dentro de los clientes.
-
-> **IA:** Lidera la adopción estratégica de IA en su área u organización, evaluando su impacto en la gestión y el negocio, y definiendo la estrategia y el governance de IA para los equipos.
+Asume rol estratégico en la planificación a largo plazo de 2 o más proyectos. Define estrategias de gestión de proyectos. Logra expansión del negocio dentro de los clientes. Lidera la adopción estratégica de IA en su área u organización, evaluando su impacto en la gestión y el negocio, y definiendo la estrategia y el governance de IA para los equipos.
 
 **Ejemplos:**
 - Definir la estrategia de gestión de proyectos para la organización.

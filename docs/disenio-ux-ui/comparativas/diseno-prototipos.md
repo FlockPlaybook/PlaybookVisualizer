@@ -12,9 +12,7 @@ sidebar_position: 1
 
 ## Instancia 1
 
-Aprende sobre patrones de diseño y herramientas de prototipado. Genera sus primeros entregables bajo supervisión frecuente.
-
-> **IA:** Comienza a explorar herramientas de IA como apoyo en su aprendizaje inicial de diseño, validando los resultados con su referente.
+Aprende sobre patrones de diseño y herramientas de prototipado. Genera sus primeros entregables bajo supervisión frecuente. Comienza a explorar herramientas de IA como apoyo en su aprendizaje inicial de diseño, validando los resultados con su referente.
 
 **Ejemplos:**
 - Estudiar y replicar patrones de diseño existentes en el proyecto.
@@ -29,9 +27,7 @@ Aprende sobre patrones de diseño y herramientas de prototipado. Genera sus prim
 
 ## Instancia 2
 
-Diseña interfaces de baja complejidad y genera prototipados interactivos. Requiere seguimiento para asegurar calidad y consistencia.
-
-> **IA:** Integra herramientas de IA en su flujo de diseño diario con supervisión, desarrollando criterio sobre cuándo y cómo utilizarlas.
+Diseña interfaces de baja complejidad y genera prototipados interactivos. Requiere seguimiento para asegurar calidad y consistencia. Integra herramientas de IA en su flujo de diseño diario con supervisión, desarrollando criterio sobre cuándo y cómo utilizarlas.
 
 **Ejemplos:**
 - Diseñar pantallas sencillas siguiendo el Design System del proyecto.
@@ -46,9 +42,7 @@ Diseña interfaces de baja complejidad y genera prototipados interactivos. Requi
 
 ## Instancia 3
 
-Crea interfaces de mediana complejidad considerando estados potenciales del flujo (error, éxito, vacío). Valida sus diseños con el equipo de desarrollo.
-
-> **IA:** Usa herramientas de IA con criterio, evaluando críticamente los resultados y comprendiendo sus limitaciones antes de incorporarlos al diseño.
+Crea interfaces de mediana complejidad considerando estados potenciales del flujo (error, éxito, vacío). Valida sus diseños con el equipo de desarrollo. Usa herramientas de IA con criterio, evaluando críticamente los resultados y comprendiendo sus limitaciones antes de incorporarlos al diseño.
 
 **Ejemplos:**
 - Diseñar flujos completos con manejo de estados de error y éxito.
@@ -63,9 +57,7 @@ Crea interfaces de mediana complejidad considerando estados potenciales del fluj
 
 ## Instancia 4
 
-Crea interfaces con creciente independencia, ejecutando tareas complejas con mínima ayuda externa. Propone soluciones de diseño ante nuevos requerimientos.
-
-> **IA:** Usa IA de forma consciente para eficientizar tiempos en el proceso de diseño y define buenas prácticas para el equipo sobre qué herramientas usar, cómo validar los resultados y cuándo no confiar en ellas.
+Crea interfaces con creciente independencia, ejecutando tareas complejas con mínima ayuda externa. Propone soluciones de diseño ante nuevos requerimientos. Usa IA de forma consciente para eficientizar tiempos en el proceso de diseño y define buenas prácticas para el equipo sobre qué herramientas usar, cómo validar los resultados y cuándo no confiar en ellas.
 
 **Ejemplos:**
 - Diseñar módulos completos del producto de forma autónoma.
@@ -80,9 +72,7 @@ Crea interfaces con creciente independencia, ejecutando tareas complejas con mí
 
 ## Instancia 5
 
-Diseña interfaces de media/alta complejidad y crea nuevos styleguides o actualizaciones al Design System. Genera hipótesis a partir de benchmarking competitivo.
-
-> **IA:** Impulsa y capacita al equipo en el uso responsable y eficiente de IA en el proceso de diseño, integrándola en los flujos establecidos.
+Diseña interfaces de media/alta complejidad y crea nuevos styleguides o actualizaciones al Design System. Genera hipótesis a partir de benchmarking competitivo. Impulsa y capacita al equipo en el uso responsable y eficiente de IA en el proceso de diseño, integrándola en los flujos establecidos.
 
 **Ejemplos:**
 - Crear y documentar nuevos componentes en el Design System.
@@ -97,9 +87,7 @@ Diseña interfaces de media/alta complejidad y crea nuevos styleguides o actuali
 
 ## Instancia 6
 
-Participa en el proceso de diseño de producto de inicio a fin. Genera diseños y soluciones innovadoras. Monitorea proactivamente la coherencia visual del producto.
-
-> **IA:** Impulsa, capacita e instaura el uso de IA en el área de diseño, definiendo estándares de validación, seguridad y governance para su aplicación en los proyectos.
+Participa en el proceso de diseño de producto de inicio a fin. Genera diseños y soluciones innovadoras. Monitorea proactivamente la coherencia visual del producto. Impulsa, capacita e instaura el uso de IA en el área de diseño, definiendo estándares de validación, seguridad y governance para su aplicación en los proyectos.
 
 **Ejemplos:**
 - Liderar el proceso de diseño de una feature compleja desde el concepto hasta el handoff.
@@ -114,9 +102,7 @@ Participa en el proceso de diseño de producto de inicio a fin. Genera diseños 
 
 ## Instancia 7
 
-Se incorpora para destrabar casos puntuales de alta complejidad. Propone y ejecuta mejoras estructurales a procesos de diseño. Detecta errores sistémicos y elabora planes de acción.
-
-> **IA:** Lidera la adopción estratégica de IA en el área de diseño: investiga herramientas emergentes, evalúa su impacto en los procesos y en el negocio, y define el governance organizacional para su uso.
+Se incorpora para destrabar casos puntuales de alta complejidad. Propone y ejecuta mejoras estructurales a procesos de diseño. Detecta errores sistémicos y elabora planes de acción. Lidera la adopción estratégica de IA en el área de diseño: investiga herramientas emergentes, evalúa su impacto en los procesos y en el negocio, y define el governance organizacional para su uso.
 
 **Ejemplos:**
 - Intervenir en proyectos críticos para resolver bloqueos de diseño de alta complejidad.

@@ -12,9 +12,7 @@ sidebar_position: 1
 
 ## Instancia 1
 
-Colabora en el diseño e implementación de soluciones técnicas. Resuelve problemas de arquitectura menores. Participa en prototipos y experimentación.
-
-> **IA:** Usa IA con criterio en el análisis y diseño de soluciones, y define para su equipo buenas prácticas de uso —qué herramientas emplear, cómo validar sus outputs y cuándo no confiar en ellos—, asegurando un uso consciente y eficiente.
+Colabora en el diseño e implementación de soluciones técnicas. Resuelve problemas de arquitectura menores. Participa en prototipos y experimentación. Usa IA con criterio en el análisis y diseño de soluciones, y define para su equipo buenas prácticas de uso —qué herramientas emplear, cómo validar sus outputs y cuándo no confiar en ellos—, asegurando un uso consciente y eficiente.
 
 **Ejemplos:**
 - Colaborar con el arquitecto senior en el diseño de componentes específicos.
@@ -29,9 +27,7 @@ Colabora en el diseño e implementación de soluciones técnicas. Resuelve probl
 
 ## Instancia 2
 
-Papel activo en proyectos de mediana/alta complejidad. Propone implementación de patrones de diseño. Garantiza robustez y escalabilidad de los componentes.
-
-> **IA:** Impulsa y capacita al equipo en el uso responsable y eficiente de IA, integrándola en los procesos de análisis, diseño e implementación de soluciones.
+Papel activo en proyectos de mediana/alta complejidad. Propone implementación de patrones de diseño. Garantiza robustez y escalabilidad de los componentes. Impulsa y capacita al equipo en el uso responsable y eficiente de IA, integrándola en los procesos de análisis, diseño e implementación de soluciones.
 
 **Ejemplos:**
 - Diseñar e implementar componentes de arquitectura de mediana/alta complejidad.
@@ -46,9 +42,7 @@ Papel activo en proyectos de mediana/alta complejidad. Propone implementación d
 
 ## Instancia 3
 
-Lidera el diseño e implementación de alta complejidad. Toma decisiones sobre tecnologías y herramientas. Introduce machine learning o IA cuando sea aplicable.
-
-> **IA:** Impulsa, capacita e instaura el uso de IA a nivel proyecto o área, estableciendo estándares y políticas de validación, seguridad y governance sobre los outputs generados.
+Lidera el diseño e implementación de alta complejidad. Toma decisiones sobre tecnologías y herramientas. Introduce machine learning o IA cuando sea aplicable. Impulsa, capacita e instaura el uso de IA a nivel proyecto o área, estableciendo estándares y políticas de validación, seguridad y governance sobre los outputs generados.
 
 **Ejemplos:**
 - Liderar el diseño de arquitecturas complejas para proyectos críticos.
@@ -63,9 +57,7 @@ Lidera el diseño e implementación de alta complejidad. Toma decisiones sobre t
 
 ## Instancia 4
 
-Responsable de la dirección técnica. Dominio excepcional en arquitecturas innovadoras. Diseña arquitecturas altamente escalables y resilientes.
-
-> **IA:** Lidera la adopción estratégica de IA a nivel organizacional, investigando herramientas emergentes, evaluando su impacto técnico y de negocio, y definiendo la estrategia y el governance de IA en la arquitectura de la empresa.
+Responsable de la dirección técnica. Dominio excepcional en arquitecturas innovadoras. Diseña arquitecturas altamente escalables y resilientes. Lidera la adopción estratégica de IA a nivel organizacional, investigando herramientas emergentes, evaluando su impacto técnico y de negocio, y definiendo la estrategia y el governance de IA en la arquitectura de la empresa.
 
 **Ejemplos:**
 - Definir y liderar la estrategia técnica de largo plazo de la organización.

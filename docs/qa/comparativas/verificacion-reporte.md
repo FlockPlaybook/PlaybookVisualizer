@@ -12,9 +12,7 @@ sidebar_position: 2
 
 ## Instancia 1
 
-Realiza pruebas en sistemas simples desde la interfaz gráfica. Su reporte de errores es claro y permite reproducir el defecto.
-
-> **IA:** Comienza a explorar herramientas de asistencia basadas en IA para apoyar su aprendizaje inicial en verificación, validando los resultados obtenidos con su referente.
+Realiza pruebas en sistemas simples desde la interfaz gráfica. Su reporte de errores es claro y permite reproducir el defecto. Comienza a explorar herramientas de asistencia basadas en IA para apoyar su aprendizaje inicial en verificación, validando los resultados obtenidos con su referente.
 
 **Ejemplos:**
 - Ejecutar casos de prueba manuales sobre la interfaz gráfica.
@@ -28,9 +26,7 @@ Realiza pruebas en sistemas simples desde la interfaz gráfica. Su reporte de er
 
 ## Instancia 2
 
-Realiza pruebas de complejidad baja-media y propone mejoras. Considera flujos normales y alternativos. Realiza pruebas de API con profundidad limitada.
-
-> **IA:** Integra herramientas de IA en su flujo de verificación con criterio, evaluando críticamente los resultados generados y comprendiendo sus limitaciones en el contexto del testing.
+Realiza pruebas de complejidad baja-media y propone mejoras. Considera flujos normales y alternativos. Realiza pruebas de API con profundidad limitada. Integra herramientas de IA en su flujo de verificación con criterio, evaluando críticamente los resultados generados y comprendiendo sus limitaciones en el contexto del testing.
 
 **Ejemplos:**
 - Ejecutar pruebas de complejidad media contemplando flujos alternativos.
@@ -45,9 +41,7 @@ Realiza pruebas de complejidad baja-media y propone mejoras. Considera flujos no
 
 ## Instancia 3
 
-Realiza pruebas de dificultad media-alta fuera de la interfaz gráfica. Detecta y reporta puntos débiles del sistema. Realiza pruebas de API integrales en forma autónoma.
-
-> **IA:** Define y comunica buenas prácticas de uso de IA al equipo, impulsando su integración en los procesos de verificación y reporte para mejorar la calidad y velocidad de entrega.
+Realiza pruebas de dificultad media-alta fuera de la interfaz gráfica. Detecta y reporta puntos débiles del sistema. Realiza pruebas de API integrales en forma autónoma. Define y comunica buenas prácticas de uso de IA al equipo, impulsando su integración en los procesos de verificación y reporte para mejorar la calidad y velocidad de entrega.
 
 **Ejemplos:**
 - Ejecutar pruebas complejas incluyendo pruebas de API end-to-end.
@@ -62,9 +56,7 @@ Realiza pruebas de dificultad media-alta fuera de la interfaz gráfica. Detecta 
 
 ## Instancia 4
 
-Visión íntegra y holística del negocio en la verificación. Define acciones preventivas. Realiza consultas SQL complejas. Realiza pruebas de accesibilidad y/o SEO.
-
-> **IA:** Lidera la adopción de IA en QA a nivel proyecto y área, estableciendo estándares, políticas de validación y governance que aseguren un impacto responsable en la calidad y el negocio.
+Visión íntegra y holística del negocio en la verificación. Define acciones preventivas. Realiza consultas SQL complejas. Realiza pruebas de accesibilidad y/o SEO. Lidera la adopción de IA en QA a nivel proyecto y área, estableciendo estándares, políticas de validación y governance que aseguren un impacto responsable en la calidad y el negocio.
 
 **Ejemplos:**
 - Ejecutar pruebas con visión completa del negocio, anticipando impactos transversales.
