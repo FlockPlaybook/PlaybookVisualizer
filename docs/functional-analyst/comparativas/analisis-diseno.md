@@ -12,9 +12,7 @@ sidebar_position: 1
 
 ## Instancia 1
 
-Modela requisitos con casuística completa. Redacta historias de usuario con criterios de aceptación. Elabora especificaciones funcionales y mantiene documentación actualizada.
-
-> **IA:** Usa herramientas de IA con criterio para eficientizar el análisis de requerimientos y la generación de documentación funcional, evaluando críticamente los outputs y comenzando a definir buenas prácticas con sus pares.
+Modela requisitos con casuística completa. Redacta historias de usuario con criterios de aceptación. Elabora especificaciones funcionales y mantiene documentación actualizada. Usa herramientas de IA con criterio para eficientizar el análisis de requerimientos y la generación de documentación funcional, evaluando críticamente los outputs y comenzando a definir buenas prácticas con sus pares.
 
 **Ejemplos:**
 - Redactar historias de usuario claras con criterios de aceptación verificables.
@@ -29,9 +27,7 @@ Modela requisitos con casuística completa. Redacta historias de usuario con cri
 
 ## Instancia 2
 
-Elicita y modela nuevos requisitos de forma autónoma. Elabora documentación completa considerando atributos de calidad de software. Elabora roadmap del proyecto y Customer Journey.
-
-> **IA:** Impulsa y capacita al equipo en el uso responsable y eficiente de IA en análisis funcional, estableciendo buenas prácticas, criterios de validación y lineamientos de governance sobre los outputs generados.
+Elicita y modela nuevos requisitos de forma autónoma. Elabora documentación completa considerando atributos de calidad de software. Elabora roadmap del proyecto y Customer Journey. Impulsa y capacita al equipo en el uso responsable y eficiente de IA en análisis funcional, estableciendo buenas prácticas, criterios de validación y lineamientos de governance sobre los outputs generados.
 
 **Ejemplos:**
 - Liderar sesiones de elicitación de requerimientos con stakeholders.
@@ -46,9 +42,7 @@ Elicita y modela nuevos requisitos de forma autónoma. Elabora documentación co
 
 ## Instancia 3
 
-Lidera y planifica el proceso de elicitación de requerimientos. Conduce consultorías de análisis funcional en forma autónoma. Entiende características técnicas del sistema (arquitecturas, microservicios, lenguajes).
-
-> **IA:** Es referente en la aplicación de IA dentro de su área de especialidad: evalúa e incorpora nuevas capacidades de IA, define criterios y estándares avanzados de validación, y mide su impacto en la calidad de los entregables, impulsando la evolución continua de la disciplina.
+Lidera y planifica el proceso de elicitación de requerimientos. Conduce consultorías de análisis funcional en forma autónoma. Entiende características técnicas del sistema (arquitecturas, microservicios, lenguajes). Es referente en la aplicación de IA dentro de su área de especialidad: evalúa e incorpora nuevas capacidades de IA, define criterios y estándares avanzados de validación, y mide su impacto en la calidad de los entregables, impulsando la evolución continua de la disciplina.
 
 **Ejemplos:**
 - Diseñar y ejecutar estrategias de elicitación para proyectos de alta complejidad.
